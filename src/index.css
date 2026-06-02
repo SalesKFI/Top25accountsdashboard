@@ -1,0 +1,80 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    font-family: 'Roboto', Arial, sans-serif;
+    font-weight: 300;
+    background-color: #ececec;
+    color: #313642;
+  }
+}
+
+@layer components {
+  /* ── KFI PILL BADGES ─────────────────────────────────── */
+  .pill {
+    @apply inline-flex items-center gap-1 px-2 py-0.5 font-label text-[9px] uppercase tracking-widest;
+  }
+  .pill-active   { @apply bg-green-100  text-green-800; }
+  .pill-warm     { @apply bg-yellow-100 text-yellow-800; }
+  .pill-cooling  { @apply bg-orange-100 text-orange-800; }
+  .pill-cold     { @apply bg-red-100    text-red-800; }
+  .pill-critical { @apply bg-red-100    text-red-800; }
+  .pill-high     { @apply bg-orange-100 text-orange-800; }
+  .pill-moderate { @apply bg-yellow-100 text-yellow-800; }
+  .pill-positive { @apply bg-green-100  text-green-800; }
+  .pill-pos      { @apply bg-green-100  text-green-800; }
+  .pill-neg      { @apply bg-red-100    text-red-800; }
+  .pill-neu      { @apply bg-gray-100   text-gray-600; }
+
+  /* ── KFI TABLE ───────────────────────────────────────── */
+  .kfi-th {
+    @apply bg-kfi-navy text-white font-label text-[9px] uppercase tracking-widest px-3 py-2 text-left font-normal;
+  }
+  .kfi-td {
+    @apply px-3 py-2 text-[12px] border-b border-kfi-lgray;
+  }
+
+  /* ── SECTION HEADER ─────────────────────────────────── */
+  .section-header {
+    @apply flex items-center gap-3 mb-3 mt-6;
+  }
+  .section-header .rule {
+    @apply w-1 h-5 bg-kfi-orange flex-shrink-0;
+  }
+  .section-header h2 {
+    @apply font-headline text-xl text-kfi-navy font-medium;
+  }
+
+  /* ── KPI CARD ────────────────────────────────────────── */
+  .kpi-card {
+    @apply bg-kfi-navy text-white p-5 border-t-[3px] border-kfi-orange;
+  }
+  .kpi-label {
+    @apply font-label text-[9px] uppercase tracking-widest text-white/60 mb-1;
+  }
+  .kpi-value {
+    @apply font-headline text-3xl font-medium leading-none;
+  }
+  .kpi-sub {
+    @apply font-label text-[9px] uppercase tracking-wider text-white/40 mt-1;
+  }
+
+  /* ── FINDING CARD ────────────────────────────────────── */
+  .finding-card {
+    @apply bg-white border-l-4 border-kfi-navy p-4 cursor-pointer transition-shadow hover:shadow-md;
+  }
+  .finding-card.CRITICAL { border-left-color: #c00000; }
+  .finding-card.HIGH     { border-left-color: #e06e3d; }
+  .finding-card.MODERATE { border-left-color: #b8860b; }
+  .finding-card.POSITIVE { border-left-color: #1a6b35; }
+
+  /* ── TAB BUTTON ──────────────────────────────────────── */
+  .tab-btn {
+    @apply bg-transparent border-none cursor-pointer px-4 py-3 font-label text-[10px] uppercase tracking-widest text-white/50 border-b-[3px] border-transparent transition-all whitespace-nowrap hover:text-white/80;
+  }
+  .tab-btn.active {
+    @apply text-white border-kfi-orange;
+  }
+}
