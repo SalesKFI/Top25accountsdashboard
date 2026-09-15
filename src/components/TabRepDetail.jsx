@@ -155,11 +155,11 @@ export default function TabRepDetail({ rep, setActiveTab }) {
             <span className="ml-auto font-label text-[9px] text-kfi-mgray uppercase">Latest 12 of {d.n_acts}</span>
           </div>
           <div className="bg-white">
-            {d.recent_acts.length === 0 ? (
+            {(d.recent_acts || []).length === 0 ? (
               <div className="p-4 border-l-4 border-red-600 bg-red-50">
                 <span className="font-label text-[10px] uppercase tracking-widest text-red-700">⚠ No activities logged — CRITICAL</span>
               </div>
-            ) : d.recent_acts.map((a,i) => (
+            ) : (d.recent_acts || []).map((a,i) => (
               <div key={i} className={`px-4 py-2.5 border-b border-kfi-lgray ${i%2===0?'':'bg-[#f9f9f9]'}`}>
                 <div className="flex justify-between items-start gap-2">
                   <span className="font-medium text-kfi-navy text-[11px]">{a.company}</span>
