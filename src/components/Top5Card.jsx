@@ -17,6 +17,7 @@ function computeTop5(rep) {
 function RepTop5({ rep, setActiveTab }) {
   const accounts = useMemo(() => computeTop5(rep), [rep])
   const d   = REP_DATA[rep]
+  if (!d) return null
   const st  = getStatus(d.days_since)
   const maxPipe = accounts.length > 0 ? accounts[0].pipe : 1
 

@@ -20,6 +20,12 @@ const STAGE_COLOR = {
 
 export default function TabRepDetail({ rep, setActiveTab }) {
   const d = REP_DATA[rep]
+  if (!d) return (
+    <div className="p-8 text-center">
+      <div className="font-headline text-kfi-navy text-xl mb-2">No data found for {rep}</div>
+      <button className="mt-4 text-sm text-blue-600 underline" onClick={() => setActiveTab('dashboard')}>← Back to Dashboard</button>
+    </div>
+  )
   const st = getStatus(d.days_since)
   const allOpps = ALL_OPPS[rep] || []
   const top25 = TOP25_STATUS[rep] || []
