@@ -3,7 +3,7 @@
 // Target lists sourced LIVE from Salesforce: Account/Lead Rating = "Top 25 Target"
 // Activities sourced LIVE from Salesforce: Task object, Status = Completed, YTD 2026
 
-export const REPORT_DATE = "September 15, 2026";
+export const REPORT_DATE = "September 21, 2026";
 
 export const REPS = [
   "Rebecca Krueger",
@@ -19,16 +19,16 @@ export const REPS = [
 export const REP_DATA = {
   "Rebecca Krueger": {
     "n_acts": 1052,
-    "n_opps": 47,
-    "pipe": 11063997,
-    "total_pipe": 13545997,
-    "n_accts": 28,
+    "n_opps": 37,
+    "pipe": 17450628,
+    "total_pipe": 21050628,
+    "n_accts": 27,
     "accts": [],
-    "n_targets": 28,
+    "n_targets": 27,
     "never": 0,
     "penetration": 100.0,
-    "days_since": 1,
-    "last_act": "2026-09-14",
+    "days_since": 3,
+    "last_act": "2026-09-18",
     "monthly": {
       "1": 45,
       "2": 82,
@@ -38,21 +38,21 @@ export const REP_DATA = {
       "6": 250,
       "7": 452,
       "8": 605,
-      "9": 180
+      "9": 220
     }
   },
   "Matt Olsen": {
     "n_acts": 288,
     "n_opps": 19,
-    "pipe": 9531260,
-    "total_pipe": 9531260,
+    "pipe": 9352300,
+    "total_pipe": 9352300,
     "n_accts": 28,
     "accts": [],
     "n_targets": 29,
     "never": 1,
     "penetration": 96.6,
-    "days_since": 1,
-    "last_act": "2026-09-14",
+    "days_since": 3,
+    "last_act": "2026-09-18",
     "monthly": {
       "1": 18,
       "2": 24,
@@ -62,7 +62,7 @@ export const REP_DATA = {
       "6": 70,
       "7": 191,
       "8": 118,
-      "9": 52
+      "9": 65
     }
   },
   "Geoff Petrangelo": {
@@ -70,13 +70,13 @@ export const REP_DATA = {
     "n_opps": 9,
     "pipe": 35039522,
     "total_pipe": 35039522,
-    "n_accts": 5,
+    "n_accts": 3,
     "accts": [],
-    "n_targets": 7,
+    "n_targets": 5,
     "never": 2,
-    "penetration": 71.4,
-    "days_since": 0,
-    "last_act": "2026-09-15",
+    "penetration": 60.0,
+    "days_since": 3,
+    "last_act": "2026-09-18",
     "monthly": {
       "1": 12,
       "2": 18,
@@ -86,21 +86,21 @@ export const REP_DATA = {
       "6": 40,
       "7": 66,
       "8": 44,
-      "9": 24
+      "9": 28
     }
   },
   "Kent Buckingham": {
     "n_acts": 88,
-    "n_opps": 7,
-    "pipe": 1670000,
-    "total_pipe": 1900000,
-    "n_accts": 16,
+    "n_opps": 17,
+    "pipe": 3598087,
+    "total_pipe": 3598087,
+    "n_accts": 19,
     "accts": [],
-    "n_targets": 18,
+    "n_targets": 21,
     "never": 2,
-    "penetration": 88.9,
-    "days_since": 29,
-    "last_act": "2026-08-17",
+    "penetration": 90.5,
+    "days_since": 4,
+    "last_act": "2026-09-17",
     "monthly": {
       "1": 8,
       "2": 12,
@@ -110,21 +110,21 @@ export const REP_DATA = {
       "6": 30,
       "7": 77,
       "8": 88,
-      "9": 0
+      "9": 25
     }
   },
   "Vonn McQuiston": {
     "n_acts": 301,
-    "n_opps": 34,
+    "n_opps": 28,
     "pipe": 9363730,
-    "total_pipe": 17846048,
-    "n_accts": 19,
+    "total_pipe": 17202348,
+    "n_accts": 18,
     "accts": [],
-    "n_targets": 22,
+    "n_targets": 21,
     "never": 3,
-    "penetration": 86.4,
-    "days_since": 5,
-    "last_act": "2026-09-10",
+    "penetration": 85.7,
+    "days_since": 0,
+    "last_act": "2026-09-21",
     "monthly": {
       "1": 20,
       "2": 30,
@@ -134,7 +134,7 @@ export const REP_DATA = {
       "6": 85,
       "7": 231,
       "8": 191,
-      "9": 62
+      "9": 75
     }
   },
   "Mariano Lobos": {
@@ -147,8 +147,8 @@ export const REP_DATA = {
     "n_targets": 19,
     "never": 0,
     "penetration": 100.0,
-    "days_since": 1,
-    "last_act": "2026-09-14",
+    "days_since": 3,
+    "last_act": "2026-09-18",
     "monthly": {
       "1": 3200,
       "2": 3800,
@@ -158,7 +158,7 @@ export const REP_DATA = {
       "6": 5200,
       "7": 31313,
       "8": 31414,
-      "9": 8100
+      "9": 9800
     }
   },
   "Jake Heinecke": {
@@ -171,7 +171,7 @@ export const REP_DATA = {
     "n_targets": 30,
     "never": 1,
     "penetration": 96.7,
-    "days_since": 1,
+    "days_since": 7,
     "last_act": "2026-09-14",
     "monthly": {
       "1": 2,
@@ -182,21 +182,21 @@ export const REP_DATA = {
       "6": 25,
       "7": 67,
       "8": 194,
-      "9": 68
+      "9": 82
     }
   },
   "Jack Subel": {
     "n_acts": 12,
-    "n_opps": 21,
-    "pipe": 288206461,
-    "total_pipe": 288206461,
+    "n_opps": 22,
+    "pipe": 312206461,
+    "total_pipe": 312206461,
     "n_accts": 10,
     "accts": [],
     "n_targets": 10,
     "never": 0,
     "penetration": 100.0,
-    "days_since": 0,
-    "last_act": "2026-09-15",
+    "days_since": 3,
+    "last_act": "2026-09-18",
     "monthly": {
       "1": 4,
       "2": 5,
@@ -206,7 +206,7 @@ export const REP_DATA = {
       "6": 8,
       "7": 10,
       "8": 0,
-      "9": 5
+      "9": 8
     }
   }
 };
@@ -337,6 +337,17 @@ export const ALL_OPPS = {
       "created": "2026-01-01"
     },
     {
+      "name": "SLB - Wire Basket Trays (WBT)",
+      "account": "Cameron International Corporation - SLB Group",
+      "stage": "Business Case",
+      "amount": 24000000,
+      "prob": 0,
+      "close": "2026-12-01",
+      "rt": "New Product Development - Metal Fabrication",
+      "is_target": true,
+      "created": "2026-01-01"
+    },
+    {
       "name": "Satellite / Next-Gen Toilet",
       "account": "Satellite Industries Inc. P5",
       "stage": "Design",
@@ -372,7 +383,7 @@ export const ALL_OPPS = {
     {
       "name": "SLB 5G-1248401-EWM14 Turnkey (1600 sets)",
       "account": "Cameron International Corporation - SLB Group",
-      "stage": "Prototype",
+      "stage": "Production Tool",
       "amount": 5422830,
       "prob": 0,
       "close": "2026-12-31",
@@ -469,7 +480,7 @@ export const ALL_OPPS = {
       "created": "2026-01-01"
     },
     {
-      "name": "SLB - gCUB",
+      "name": "SLB - Freebird",
       "account": "Cameron International Corporation - SLB Group",
       "stage": "Business Case",
       "amount": 1000000,
@@ -480,7 +491,7 @@ export const ALL_OPPS = {
       "created": "2026-01-01"
     },
     {
-      "name": "SLB - Freebird",
+      "name": "SLB - gCUB",
       "account": "Cameron International Corporation - SLB Group",
       "stage": "Business Case",
       "amount": 1000000,
@@ -713,17 +724,6 @@ export const ALL_OPPS = {
       "created": "2026-01-01"
     },
     {
-      "name": "JM Smuckers Drum Pallet Void 48x96x4",
-      "account": "JM Smucker",
-      "stage": "QEC",
-      "amount": 50000,
-      "prob": 0,
-      "close": "2026-10-23",
-      "rt": "Existing Material Handling",
-      "is_target": false,
-      "created": "2026-01-01"
-    },
-    {
       "name": "Frito Lays BigPak 40x48B SP",
       "account": "Frito Lay - Texas",
       "stage": "Business Case",
@@ -731,6 +731,17 @@ export const ALL_OPPS = {
       "prob": 0,
       "close": "2026-10-16",
       "rt": "New Product Development Material Handling",
+      "is_target": false,
+      "created": "2026-01-01"
+    },
+    {
+      "name": "JM Smuckers Drum Pallet Void 48x96x4",
+      "account": "JM Smucker",
+      "stage": "QEC",
+      "amount": 50000,
+      "prob": 0,
+      "close": "2026-10-23",
+      "rt": "Existing Material Handling",
       "is_target": false,
       "created": "2026-01-01"
     },
@@ -803,6 +814,17 @@ export const ALL_OPPS = {
       "created": "2026-01-01"
     },
     {
+      "name": "SR200328 Engine Trim Cart",
+      "account": "PackIQ - P3",
+      "stage": "Prototype",
+      "amount": 644382,
+      "prob": 0,
+      "close": "2026-10-30",
+      "rt": "New Product Development - Metal Fabrication",
+      "is_target": true,
+      "created": "2026-01-01"
+    },
+    {
       "name": "Avis AFM bedliners",
       "account": "Avis Budget Group",
       "stage": "Request for Information",
@@ -821,6 +843,17 @@ export const ALL_OPPS = {
       "prob": 0,
       "close": "2026-08-28",
       "rt": "Existing Automotive Accessories",
+      "is_target": true,
+      "created": "2026-01-01"
+    },
+    {
+      "name": "BP4048D TP/TC",
+      "account": "Veritiv Operating Co. (Unisource)",
+      "stage": "QEC",
+      "amount": 348825,
+      "prob": 0,
+      "close": "2026-09-18",
+      "rt": "Existing Material Handling",
       "is_target": true,
       "created": "2026-01-01"
     },
@@ -847,6 +880,17 @@ export const ALL_OPPS = {
       "created": "2026-01-01"
     },
     {
+      "name": "Front Fascia MSP MOLD WIP",
+      "account": "PackIQ - P3",
+      "stage": "Business Case",
+      "amount": 300000,
+      "prob": 0,
+      "close": "2026-09-30",
+      "rt": "New Product Development - Metal Fabrication",
+      "is_target": true,
+      "created": "2026-01-01"
+    },
+    {
       "name": "Enterprise - Dallas",
       "account": "Enterprise - Dallas Truck Ctr",
       "stage": "Request for Information",
@@ -865,6 +909,83 @@ export const ALL_OPPS = {
       "prob": 0,
       "close": "2026-08-28",
       "rt": "New Product Development - Market Driven Penda Automotive",
+      "is_target": false,
+      "created": "2026-01-01"
+    },
+    {
+      "name": "Big Pak Corning",
+      "account": "Veritiv Operating Co. (Unisource)",
+      "stage": "Quote",
+      "amount": 110281,
+      "prob": 0,
+      "close": "2026-10-30",
+      "rt": "Existing Material Handling",
+      "is_target": true,
+      "created": "2026-01-01"
+    },
+    {
+      "name": "AG FACEBAR C256667A-01",
+      "account": "PackIQ - P3",
+      "stage": "Business Case",
+      "amount": 100000,
+      "prob": 0,
+      "close": "2026-09-30",
+      "rt": "New Product Development - Metal Fabrication",
+      "is_target": true,
+      "created": "2026-01-01"
+    },
+    {
+      "name": "NMD Door Pad Rack SR200279_A_1",
+      "account": "PackIQ - P3",
+      "stage": "Business Case",
+      "amount": 100000,
+      "prob": 0,
+      "close": "2026-10-30",
+      "rt": "New Product Development - Metal Fabrication",
+      "is_target": true,
+      "created": "2026-01-01"
+    },
+    {
+      "name": "DNY Pallets 40x48",
+      "account": "Plastipak Packaging Inc",
+      "stage": "Quote",
+      "amount": 63500,
+      "prob": 0,
+      "close": "2026-09-18",
+      "rt": "Existing Material Handling",
+      "is_target": false,
+      "created": "2026-01-01"
+    },
+    {
+      "name": "BP40x48D TP/TC with Peanut Locks",
+      "account": "Veritiv Operating Co. (Unisource)",
+      "stage": "Business Case",
+      "amount": 20000,
+      "prob": 0,
+      "close": "2026-09-18",
+      "rt": "New Product Development Material Handling",
+      "is_target": true,
+      "created": "2026-01-01"
+    },
+    {
+      "name": "43x43 Heavy Duty Bulk Bag Pallet",
+      "account": "The Nelson Company",
+      "stage": "Quote",
+      "amount": 8000,
+      "prob": 0,
+      "close": "2026-09-23",
+      "rt": "Existing Material Handling",
+      "is_target": false,
+      "created": "2026-01-01"
+    },
+    {
+      "name": "Load Locker",
+      "account": "The Nelson Company",
+      "stage": "Business Case",
+      "amount": 3099,
+      "prob": 0,
+      "close": "2026-10-28",
+      "rt": "New Product Development Material Handling",
       "is_target": false,
       "created": "2026-01-01"
     }
@@ -1104,7 +1225,7 @@ export const ALL_OPPS = {
     {
       "name": "PKG RET NAO PC PALLET & TRAY 15/16",
       "account": "Superior Industries IntL",
-      "stage": "Request for Information",
+      "stage": "QEC",
       "amount": 50000,
       "prob": 0,
       "close": "2026-09-30",
@@ -1230,7 +1351,7 @@ export const ALL_OPPS = {
       "stage": "Concept",
       "amount": 1955000,
       "prob": 0,
-      "close": "2027-06-01",
+      "close": "2027-02-01",
       "rt": "New Product Development Material Handling",
       "is_target": true,
       "created": "2026-01-01"
@@ -1283,9 +1404,9 @@ export const ALL_OPPS = {
       "name": "DDR Battery Pack",
       "account": "Redwood Materials",
       "stage": "Concept",
-      "amount": 600000,
+      "amount": 420000,
       "prob": 0,
-      "close": "2026-09-30",
+      "close": "2026-10-30",
       "rt": "New Product Development Material Handling",
       "is_target": true,
       "created": "2026-01-01"
@@ -1395,7 +1516,7 @@ export const ALL_OPPS = {
       "stage": "Quote",
       "amount": 78871,
       "prob": 0,
-      "close": "2026-09-18",
+      "close": "2026-09-25",
       "rt": "Existing Material Handling",
       "is_target": true,
       "created": "2026-01-01"
@@ -1414,7 +1535,7 @@ export const ALL_OPPS = {
     {
       "name": "AMR Top Hatting Rebuy",
       "account": "TESLA",
-      "stage": "Request for Information",
+      "stage": "Quote",
       "amount": 28093,
       "prob": 0,
       "close": "2026-09-29",
@@ -1425,8 +1546,8 @@ export const ALL_OPPS = {
     {
       "name": "48 x 40 Crowder",
       "account": "TESLA",
-      "stage": "Request for Information",
-      "amount": 20000,
+      "stage": "Quote",
+      "amount": 21040,
       "prob": 0,
       "close": "2026-09-17",
       "rt": "Existing Metal Fabrication",
@@ -1436,43 +1557,10 @@ export const ALL_OPPS = {
   ],
   "Rebecca Krueger": [
     {
-      "name": "VW Powerco Can Tray Pack",
-      "account": "Volkswagen Group of America",
-      "stage": "Concept",
-      "amount": 2000000,
-      "prob": 0,
-      "close": "2026-12-31",
-      "rt": "New Product Development Material Handling",
-      "is_target": true,
-      "created": "2026-01-01"
-    },
-    {
-      "name": "Long & Short Coil Rack",
-      "account": "PackIQ - P3",
-      "stage": "Business Case",
-      "amount": 1900000,
-      "prob": 0,
-      "close": "2026-09-30",
-      "rt": "New Product Development - Metal Fabrication",
-      "is_target": true,
-      "created": "2026-01-01"
-    },
-    {
-      "name": "SR200328 Engine Trim Cart",
-      "account": "PackIQ - P3",
-      "stage": "Prototype",
-      "amount": 644382,
-      "prob": 0,
-      "close": "2026-10-30",
-      "rt": "New Product Development - Metal Fabrication",
-      "is_target": true,
-      "created": "2026-01-01"
-    },
-    {
-      "name": "MIP Eagle PV Panel",
+      "name": "MIP Eagle PV Solar Panel Pallet",
       "account": "TESLA",
       "stage": "Concept",
-      "amount": 510000,
+      "amount": 12187500,
       "prob": 0,
       "close": "2027-09-30",
       "rt": "New Product Development Material Handling",
@@ -1480,12 +1568,12 @@ export const ALL_OPPS = {
       "created": "2026-01-01"
     },
     {
-      "name": "Cummins Ring Gear Small Tray",
-      "account": "Cummins Inc.",
-      "stage": "Business Case",
-      "amount": 500000,
+      "name": "VW Powerco Can Tray Pack",
+      "account": "PowerCo - St. Thomas Canada",
+      "stage": "Concept",
+      "amount": 2000000,
       "prob": 0,
-      "close": "2026-12-31",
+      "close": "2027-02-26",
       "rt": "New Product Development Material Handling",
       "is_target": true,
       "created": "2026-01-01"
@@ -1513,7 +1601,18 @@ export const ALL_OPPS = {
       "created": "2026-01-01"
     },
     {
-      "name": "Cummins Gear & Pinion Set Medium Dunnage",
+      "name": "Cummins Ring Gear Small Tray",
+      "account": "Cummins Inc.",
+      "stage": "Business Case",
+      "amount": 500000,
+      "prob": 0,
+      "close": "2026-12-31",
+      "rt": "New Product Development Material Handling",
+      "is_target": true,
+      "created": "2026-01-01"
+    },
+    {
+      "name": "Cummins Gear & Pinion Set Small Dunnage",
       "account": "Cummins Inc.",
       "stage": "Prototype",
       "amount": 400000,
@@ -1524,18 +1623,7 @@ export const ALL_OPPS = {
       "created": "2026-01-01"
     },
     {
-      "name": "Cummins Gear & Pinion Set Large Dunnage",
-      "account": "Cummins Inc.",
-      "stage": "Production Tool",
-      "amount": 400000,
-      "prob": 0,
-      "close": "2026-06-26",
-      "rt": "New Product Development Material Handling",
-      "is_target": true,
-      "created": "2026-01-01"
-    },
-    {
-      "name": "Cummins Gear & Pinion Set Small Dunnage",
+      "name": "Cummins Gear & Pinion Set Medium Dunnage",
       "account": "Cummins Inc.",
       "stage": "Prototype",
       "amount": 400000,
@@ -1557,17 +1645,6 @@ export const ALL_OPPS = {
       "created": "2026-01-01"
     },
     {
-      "name": "CTP Tray Commonization 9 Pocket",
-      "account": "Cummins Inc.",
-      "stage": "Production Tool",
-      "amount": 315087,
-      "prob": 0,
-      "close": "2026-02-27",
-      "rt": "New Product Development Material Handling",
-      "is_target": true,
-      "created": "2026-01-01"
-    },
-    {
       "name": "Cummins DOC Module Heavy Duty Pack",
       "account": "Cummins Inc.",
       "stage": "Concept",
@@ -1575,17 +1652,6 @@ export const ALL_OPPS = {
       "prob": 0,
       "close": "2026-12-31",
       "rt": "New Product Development Material Handling",
-      "is_target": true,
-      "created": "2026-01-01"
-    },
-    {
-      "name": "Front Fascia MSP MOLD WIP",
-      "account": "PackIQ - P3",
-      "stage": "Business Case",
-      "amount": 300000,
-      "prob": 0,
-      "close": "2026-09-30",
-      "rt": "New Product Development - Metal Fabrication",
       "is_target": true,
       "created": "2026-01-01"
     },
@@ -1603,7 +1669,7 @@ export const ALL_OPPS = {
     {
       "name": "BMW Common Grille Tray Pack",
       "account": "REHAU",
-      "stage": "Design",
+      "stage": "Prototype",
       "amount": 260000,
       "prob": 0,
       "close": "2026-09-30",
@@ -1623,7 +1689,51 @@ export const ALL_OPPS = {
       "created": "2026-01-01"
     },
     {
+      "name": "Cummins Pinion Tray Medium",
+      "account": "Meritor",
+      "stage": "Business Case",
+      "amount": 200000,
+      "prob": 0,
+      "close": "2026-12-31",
+      "rt": "New Product Development Material Handling",
+      "is_target": true,
+      "created": "2026-01-01"
+    },
+    {
+      "name": "Metal Pallet",
+      "account": "Takeda",
+      "stage": "Prototype",
+      "amount": 200000,
+      "prob": 0,
+      "close": "2026-01-30",
+      "rt": "New Product Development - Metal Fabrication",
+      "is_target": true,
+      "created": "2026-01-01"
+    },
+    {
+      "name": "Form Energy Battery Divider Tray Pack",
+      "account": "Form Energy",
+      "stage": "Business Case",
+      "amount": 200000,
+      "prob": 0,
+      "close": "2026-09-30",
+      "rt": "New Product Development Material Handling",
+      "is_target": true,
+      "created": "2026-01-01"
+    },
+    {
       "name": "Cummins DOC Module Mid-Range Pack",
+      "account": "Cummins Inc.",
+      "stage": "Concept",
+      "amount": 200000,
+      "prob": 0,
+      "close": "2026-12-31",
+      "rt": "New Product Development Material Handling",
+      "is_target": true,
+      "created": "2026-01-01"
+    },
+    {
+      "name": "Cummins Flex SCR End Out Pack",
       "account": "Cummins Inc.",
       "stage": "Concept",
       "amount": 200000,
@@ -1656,17 +1766,6 @@ export const ALL_OPPS = {
       "created": "2026-01-01"
     },
     {
-      "name": "Cummins Pinion Tray Medium",
-      "account": "Meritor",
-      "stage": "Business Case",
-      "amount": 200000,
-      "prob": 0,
-      "close": "2026-12-31",
-      "rt": "New Product Development Material Handling",
-      "is_target": true,
-      "created": "2026-01-01"
-    },
-    {
       "name": "Form Energy Metal Mesh Plate Tray Pack",
       "account": "Form Energy",
       "stage": "Business Case",
@@ -1675,61 +1774,6 @@ export const ALL_OPPS = {
       "close": "2027-01-29",
       "rt": "New Product Development Material Handling",
       "is_target": true,
-      "created": "2026-01-01"
-    },
-    {
-      "name": "Cummins Flex SCR End Out Pack",
-      "account": "Cummins Inc.",
-      "stage": "Concept",
-      "amount": 200000,
-      "prob": 0,
-      "close": "2026-12-31",
-      "rt": "New Product Development Material Handling",
-      "is_target": true,
-      "created": "2026-01-01"
-    },
-    {
-      "name": "Form Energy Battery Divider Tray Pack",
-      "account": "Form Energy",
-      "stage": "Business Case",
-      "amount": 200000,
-      "prob": 0,
-      "close": "2026-09-30",
-      "rt": "New Product Development Material Handling",
-      "is_target": true,
-      "created": "2026-01-01"
-    },
-    {
-      "name": "Metal Pallet",
-      "account": "Takeda",
-      "stage": "Prototype",
-      "amount": 200000,
-      "prob": 0,
-      "close": "2026-01-30",
-      "rt": "New Product Development - Metal Fabrication",
-      "is_target": true,
-      "created": "2026-01-01"
-    },
-    {
-      "name": "21 VDA Wheel tray",
-      "account": "TriEnda Holdings",
-      "stage": "Prototype",
-      "amount": 184800,
-      "prob": 0,
-      "close": "2026-09-20",
-      "rt": "New Product Development Material Handling",
-      "is_target": false,
-      "created": "2026-01-01"
-    },
-    {
-      "name": "Tire & Wheel Rack Cart",
-      "account": "Kontane Logistics",
-      "stage": "Business Case",
-      "amount": 150000,
-      "prob": 0,
-      "close": "2026-10-30",
-      "rt": "New Product Development - Metal Fabrication",
-      "is_target": false,
       "created": "2026-01-01"
     },
     {
@@ -1744,13 +1788,13 @@ export const ALL_OPPS = {
       "created": "2026-01-01"
     },
     {
-      "name": "CTP Tray Commonization - 12 Pocket",
-      "account": "Cummins Inc.",
-      "stage": "Production Tool",
-      "amount": 138000,
+      "name": "JCI TWIN BATTERY PALLET #8283",
+      "account": "Clarios, LLC",
+      "stage": "Quote",
+      "amount": 135000,
       "prob": 0,
-      "close": "2026-02-27",
-      "rt": "New Product Development Material Handling",
+      "close": "2026-09-30",
+      "rt": "Existing Material Handling",
       "is_target": true,
       "created": "2026-01-01"
     },
@@ -1759,6 +1803,28 @@ export const ALL_OPPS = {
       "account": "Meritor",
       "stage": "Design",
       "amount": 124123,
+      "prob": 0,
+      "close": "2026-12-31",
+      "rt": "New Product Development Material Handling",
+      "is_target": true,
+      "created": "2026-01-01"
+    },
+    {
+      "name": "Cummins Brake Tray 3215K2871",
+      "account": "Cummins Inc.",
+      "stage": "Concept",
+      "amount": 120000,
+      "prob": 0,
+      "close": "2027-01-29",
+      "rt": "New Product Development Material Handling",
+      "is_target": true,
+      "created": "2026-01-01"
+    },
+    {
+      "name": "Cummins Inlet Module Side Inlet Pack",
+      "account": "Cummins Inc.",
+      "stage": "Prototype",
+      "amount": 117430,
       "prob": 0,
       "close": "2026-12-31",
       "rt": "New Product Development Material Handling",
@@ -1777,28 +1843,6 @@ export const ALL_OPPS = {
       "created": "2026-01-01"
     },
     {
-      "name": "Cummins Brake Tray 3215K2871",
-      "account": "Cummins Inc.",
-      "stage": "Concept",
-      "amount": 120000,
-      "prob": 0,
-      "close": "2027-01-29",
-      "rt": "New Product Development Material Handling",
-      "is_target": true,
-      "created": "2026-01-01"
-    },
-    {
-      "name": "Cummins Inlet Module Side Inlet Pack",
-      "account": "Cummins Inc.",
-      "stage": "Concept",
-      "amount": 117430,
-      "prob": 0,
-      "close": "2026-12-31",
-      "rt": "New Product Development Material Handling",
-      "is_target": true,
-      "created": "2026-01-01"
-    },
-    {
       "name": "28M CRV FRONT KNUCKLE LH & RH TRAY",
       "account": "Honda of America Mfg., Inc.",
       "stage": "Business Case",
@@ -1807,39 +1851,6 @@ export const ALL_OPPS = {
       "close": "2026-10-30",
       "rt": "New Product Development Material Handling",
       "is_target": false,
-      "created": "2026-01-01"
-    },
-    {
-      "name": "Cummins 16 Pocket Turbocharger Tray",
-      "account": "Cummins Inc.",
-      "stage": "Business Case",
-      "amount": 100000,
-      "prob": 0,
-      "close": "2026-12-31",
-      "rt": "New Product Development Material Handling",
-      "is_target": true,
-      "created": "2026-01-01"
-    },
-    {
-      "name": "AG FACEBAR C256667A-01",
-      "account": "PackIQ - P3",
-      "stage": "Business Case",
-      "amount": 100000,
-      "prob": 0,
-      "close": "2026-09-30",
-      "rt": "New Product Development - Metal Fabrication",
-      "is_target": true,
-      "created": "2026-01-01"
-    },
-    {
-      "name": "NMD Door Pad Rack SR200279_A_1",
-      "account": "PackIQ - P3",
-      "stage": "Business Case",
-      "amount": 100000,
-      "prob": 0,
-      "close": "2026-10-30",
-      "rt": "New Product Development - Metal Fabrication",
-      "is_target": true,
       "created": "2026-01-01"
     },
     {
@@ -1876,17 +1887,6 @@ export const ALL_OPPS = {
       "created": "2026-01-01"
     },
     {
-      "name": "Cummins 20 Pocket Turbocharger Tray",
-      "account": "Cummins Inc.",
-      "stage": "Business Case",
-      "amount": 100000,
-      "prob": 0,
-      "close": "2026-12-31",
-      "rt": "New Product Development Material Handling",
-      "is_target": true,
-      "created": "2026-01-01"
-    },
-    {
       "name": "Magna Planet Gear Set Pack",
       "account": "Magna Powertrain USA",
       "stage": "Business Case",
@@ -1909,12 +1909,12 @@ export const ALL_OPPS = {
       "created": "2026-01-01"
     },
     {
-      "name": "Superior PC22 Wheel Packs",
-      "account": "TriEnda Holdings",
-      "stage": "Production Tool",
-      "amount": 68400,
+      "name": "2026 CD6R HOUSING TRAY MADISON KIPP",
+      "account": "Gkn Driveline Newton, Llc",
+      "stage": "Business Case",
+      "amount": 75000,
       "prob": 0,
-      "close": "2026-09-11",
+      "close": "2026-11-30",
       "rt": "New Product Development Material Handling",
       "is_target": false,
       "created": "2026-01-01"
@@ -1932,7 +1932,7 @@ export const ALL_OPPS = {
     },
     {
       "name": "2026 GKN CD6R GEARSET WELDMENT",
-      "account": "Gkn Driveline Newton Llc",
+      "account": "Gkn Driveline Newton, Llc",
       "stage": "Prototype",
       "amount": 37987,
       "prob": 0,
@@ -1943,7 +1943,7 @@ export const ALL_OPPS = {
     },
     {
       "name": "2026 V363 GEARSET TRAY",
-      "account": "Gkn Driveline Newton Llc",
+      "account": "Gkn Driveline Newton, Llc",
       "stage": "Prototype",
       "amount": 31835,
       "prob": 0,
@@ -1988,6 +1988,17 @@ export const ALL_OPPS = {
       "created": "2026-01-01"
     },
     {
+      "name": "Grounding Mat",
+      "account": "United Rentals",
+      "stage": "Business Case",
+      "amount": 2000000,
+      "prob": 0,
+      "close": "2026-12-28",
+      "rt": "New Product Development - Metal Fabrication",
+      "is_target": true,
+      "created": "2026-01-01"
+    },
+    {
       "name": "Cam Lock/Pin Lock",
       "account": "United Rentals",
       "stage": "Business Case",
@@ -2006,17 +2017,6 @@ export const ALL_OPPS = {
       "prob": 0,
       "close": "2026-11-06",
       "rt": "New Product Development OEM",
-      "is_target": true,
-      "created": "2026-01-01"
-    },
-    {
-      "name": "Grounding Mat",
-      "account": "United Rentals",
-      "stage": "Business Case",
-      "amount": 2000000,
-      "prob": 0,
-      "close": "2026-09-11",
-      "rt": "New Product Development - Metal Fabrication",
       "is_target": true,
       "created": "2026-01-01"
     },
@@ -2048,20 +2048,9 @@ export const ALL_OPPS = {
       "stage": "Business Case",
       "amount": 500000,
       "prob": 0,
-      "close": "2026-09-30",
+      "close": "2026-11-24",
       "rt": "New Product Development Material Handling",
       "is_target": false,
-      "created": "2026-01-01"
-    },
-    {
-      "name": "BP4048D TP/TC",
-      "account": "Veritiv Operating Co. (Unisource)",
-      "stage": "QEC",
-      "amount": 348825,
-      "prob": 0,
-      "close": "2026-09-18",
-      "rt": "Existing Material Handling",
-      "is_target": true,
       "created": "2026-01-01"
     },
     {
@@ -2117,17 +2106,6 @@ export const ALL_OPPS = {
       "close": "2026-09-04",
       "rt": "Existing Material Handling",
       "is_target": false,
-      "created": "2026-01-01"
-    },
-    {
-      "name": "Big Pak Corning",
-      "account": "Veritiv Operating Co. (Unisource)",
-      "stage": "Quote",
-      "amount": 110281,
-      "prob": 0,
-      "close": "2026-09-11",
-      "rt": "Existing Material Handling",
-      "is_target": true,
       "created": "2026-01-01"
     },
     {
@@ -2197,17 +2175,6 @@ export const ALL_OPPS = {
       "created": "2026-01-01"
     },
     {
-      "name": "BP 4848W SP",
-      "account": "International Precision Components",
-      "stage": "Quote",
-      "amount": 100000,
-      "prob": 0,
-      "close": "2026-09-11",
-      "rt": "Existing Material Handling",
-      "is_target": false,
-      "created": "2026-01-01"
-    },
-    {
       "name": "BP 35 X 55 for Tennent",
       "account": "Stearnswood Inc.",
       "stage": "Business Case",
@@ -2225,17 +2192,6 @@ export const ALL_OPPS = {
       "amount": 69840,
       "prob": 0,
       "close": "2026-09-30",
-      "rt": "Existing Material Handling",
-      "is_target": false,
-      "created": "2026-01-01"
-    },
-    {
-      "name": "DNY Pallets 40x48",
-      "account": "Plastipak Packaging Inc",
-      "stage": "Quote",
-      "amount": 63500,
-      "prob": 0,
-      "close": "2026-09-18",
       "rt": "Existing Material Handling",
       "is_target": false,
       "created": "2026-01-01"
@@ -2274,17 +2230,6 @@ export const ALL_OPPS = {
       "created": "2026-01-01"
     },
     {
-      "name": "BP 32X44 Pallet",
-      "account": "Crane Payment Innovations",
-      "stage": "Quote",
-      "amount": 22765,
-      "prob": 0,
-      "close": "2026-08-21",
-      "rt": "Existing Material Handling",
-      "is_target": false,
-      "created": "2026-01-01"
-    },
-    {
       "name": "BigPacks for Tennent",
       "account": "Stearnswood Inc.",
       "stage": "Quote",
@@ -2296,20 +2241,20 @@ export const ALL_OPPS = {
       "created": "2026-01-01"
     },
     {
-      "name": "BP40x48D TP/TC with Peanut Locks",
-      "account": "Veritiv Operating Co. (Unisource)",
-      "stage": "Business Case",
-      "amount": 20000,
+      "name": "Steel Replacement Bottoms",
+      "account": "Texas Disposal Systems",
+      "stage": "Quote",
+      "amount": 10000,
       "prob": 0,
-      "close": "2026-09-18",
-      "rt": "New Product Development Material Handling",
-      "is_target": true,
+      "close": "2026-09-21",
+      "rt": "Existing Metal Fabrication",
+      "is_target": false,
       "created": "2026-01-01"
     },
     {
       "name": "IBC Panels",
       "account": "Schutz Container Systems",
-      "stage": "Request for Information",
+      "stage": "Quote",
       "amount": 10000,
       "prob": 0,
       "close": "2026-09-30",
@@ -2318,24 +2263,13 @@ export const ALL_OPPS = {
       "created": "2026-01-01"
     },
     {
-      "name": "43x43 Heavy Duty Bulk Bag Pallet",
-      "account": "The Nelson Company",
-      "stage": "Request for Information",
-      "amount": 8000,
+      "name": "Duraliner Dumpster Liners HDPE Full Liners",
+      "account": "Penda Corporation Unassigned",
+      "stage": "Concept",
+      "amount": 1,
       "prob": 0,
-      "close": "2026-09-23",
-      "rt": "Existing Material Handling",
-      "is_target": false,
-      "created": "2026-01-01"
-    },
-    {
-      "name": "Load Locker",
-      "account": "The Nelson Company",
-      "stage": "Business Case",
-      "amount": 3099,
-      "prob": 0,
-      "close": "2026-10-28",
-      "rt": "New Product Development Material Handling",
+      "close": "2026-01-16",
+      "rt": "New Product Development OEM",
       "is_target": false,
       "created": "2026-01-01"
     }
@@ -2561,14 +2495,6 @@ export const TOP25_STATUS = {
       "engaged": true
     },
     {
-      "name": "04780 - Roush Ford",
-      "engaged": true
-    },
-    {
-      "name": "41086 - Fox Toyota",
-      "engaged": true
-    },
-    {
       "name": "70998 - Roush Industries",
       "engaged": false
     },
@@ -2743,15 +2669,27 @@ export const TOP25_STATUS = {
   ],
   "Kent Buckingham": [
     {
+      "name": "Veritiv Operating Co. (Unisource)",
+      "engaged": true
+    },
+    {
+      "name": "PackIQ - P3",
+      "engaged": true
+    },
+    {
+      "name": "Stephen Gould Corporation",
+      "engaged": true
+    },
+    {
       "name": "AutoPort",
       "engaged": true
     },
     {
-      "name": "Commercial Van Solutions Llc",
+      "name": "Avis Budget Group",
       "engaged": true
     },
     {
-      "name": "Avis Budget Group",
+      "name": "Commercial Van Solutions Llc",
       "engaged": true
     },
     {
@@ -2775,15 +2713,15 @@ export const TOP25_STATUS = {
       "engaged": true
     },
     {
-      "name": "Competition Specialties, Inc.",
-      "engaged": true
-    },
-    {
       "name": "Titan Truck Equipment",
       "engaged": true
     },
     {
       "name": "Nelson Truck Equipment Co Inc - Kent",
+      "engaged": true
+    },
+    {
+      "name": "Competition Specialties, Inc.",
       "engaged": true
     },
     {
@@ -2795,11 +2733,11 @@ export const TOP25_STATUS = {
       "engaged": true
     },
     {
-      "name": "Tractor Supply",
+      "name": "Ideal Automotive & Truck Accessories",
       "engaged": true
     },
     {
-      "name": "Ideal Automotive & Truck Accessories",
+      "name": "Tractor Supply",
       "engaged": true
     },
     {
@@ -3222,31 +3160,27 @@ export const TOP25_STATUS = {
 };
 
 export const FINDINGS = [
-  {"sev":"CRITICAL","rep":"Kent Buckingham","finding":"Kent Buckingham: Last active Aug 17 — 29 days. 16/18 = 88.9%. Enterprise Sherwood and College Park still null. 29 days with no logged activity. Avis close date Sep 18 is this week.","action":"URGENT: Log activity today. Update Avis AFM bedliners ($450K) close date — Sep 18 is Thursday. Log Enterprise Sherwood and College Park."},
-  {"sev":"HIGH","rep":"Jack Subel","finding":"Jack Subel: Last active Sep 15 — today. 10/10 = 100%. Two new SLB opps: gCUB $1M and Freebird $1M (both Business Case). Pipeline at $288M — 71% of team total. SLB Lifting Skids and Satellite Fronts/Doors had Sep 30 close dates — past due.","action":"Update SLB Lifting Skids and Satellite Fronts/Doors close dates. Advance SLB OPTIDC ($148M) to Business Case. Satellite Next-Gen Toilet ($20M) — push to Prototype."},
-  {"sev":"MODERATE","rep":"Geoff Petrangelo","finding":"Geoff Petrangelo: Last active Sep 15 — today. 5/7 = 71.4%. Roush and Utilimaster still null — 10 weeks. Pipeline $35.0M.","action":"Roush/Utilimaster: 10 weeks — final escalation this week. Ford P736 Drop-In ($9.6M) — advance Design to Business Case."},
-  {"sev":"MODERATE","rep":"Matt Olsen","finding":"Matt Olsen: Last active Sep 14 — 1 day. 28/29 = 96.6% — TREMEC still null. DDR Battery Pack dropped $931K to $600K. New TESLA opps: AMR Top Hatting $28K + 48x40 Crowder $20K. Pipeline $9.5M.","action":"Contact TREMEC for 100%. R2 Lockdown Rack ($1M BC) due Sep 11 — update close date. R2 Tower Rack Bases ($250K) due Sep 17."},
-  {"sev":"POSITIVE","rep":"Jake Heinecke","finding":"Jake Heinecke: Last active Sep 14 — 1 day. 29/30 = 96.7% — Petco Animal Supplies only never-contacted. Pipeline $20.2M with 22 opps. Aldi, General Mills, PepsiCo active Sep 14.","action":"Contact Petco Animal Supplies for 100%. AdaptaPak DC6 ($4M Prototype) due Oct 9 — confirm order path."},
-  {"sev":"POSITIVE","rep":"Mariano Lobos","finding":"Mariano Lobos: Last active Sep 14 — 1 day. 19/19 = 100%. New opp: NEW PALLET BP 6832 $350K (HIPERPACK). JCI Twin Battery Pallet $163K moved from Rebecca. Pipeline $20.9M with 32 opps.","action":"BP 4048 Orange Stripe ($2.4M Quote) due Sep 30 — close this week. CBB RACKS ($2.86M) — qualify and advance stage."},
-  {"sev":"POSITIVE","rep":"Rebecca Krueger","finding":"Rebecca Krueger: Last active Sep 14 — 1 day. 28/28 = 100%. SR200501 Racks closed. JCI moved to Mariano. Pipeline $13.5M with 47 opps. Cummins Sep 14, Volkswagen Sep 10.","action":"Long & Short Coil Rack ($1.9M BC) due Sep 30 — advance to Quote this week."},
-  {"sev":"MODERATE","rep":"Vonn McQuiston","finding":"Vonn McQuiston: Last active Sep 10 — 5 days. 19/22 = 86.4% — three never contacted. New Brake Clamshell $750K (Westlake) + IBC Panels $10K + 43x43 Pallet $8K. Roll Off Lid System $3M was due Sep 30 — past due.","action":"Update Roll Off Lid System close date — Sep 30 has passed. Contact Waste Connections-Iowa Park and Sunbelt Rentals."}
+  {"sev":"CRITICAL","rep":"Jack Subel","finding":"Jack Subel: Last active Sep 18 — 3 days. 10/10 = 100%. New SLB Wire Basket Trays (WBT) $24M Business Case added — pipeline jumped to $312M. SLB OPTIDC $148M, SLB IAD669 $72M, SLB WBT $24M are the top three. Satellite Next-Gen Toilet $20M still at Design.","action":"Advance SLB OPTIDC from Concept to Business Case. SLB WBT $24M is new and needs a close plan. Satellite Next-Gen Toilet — push to Prototype."},
+  {"sev":"HIGH","rep":"Rebecca Krueger","finding":"Rebecca Krueger: Last active Sep 18 — 3 days. 27/27 = 100% (Jtekt null is a duplicate). MIP Eagle PV Solar Panel Pallet jumped from $510K to $12.2M — massive increase. Long & Short Coil Rack removed. Several opps moved to Kent. Pipeline at $21.1M with 37 opps.","action":"Understand the MIP Eagle scope change — why did it jump $11.7M? Confirm opp moves to Kent are correct in SF. 6441 TPR Cylinder Liner Tray ($275K Quote) due Sep 30."},
+  {"sev":"POSITIVE","rep":"Kent Buckingham","finding":"Kent Buckingham: Last active Sep 17 — 4 days. 19/21 = 90.5% — major change this week. Now has 17 opps totaling $3.6M including SR200328 Engine Trim Cart $644K, PackIQ opps, Veritiv accounts. Enterprise Sherwood and College Park still null. Significant expansion of Kent's scope.","action":"Log activity for Enterprise Sherwood and College Park. SR200328 Engine Trim Cart ($644K Prototype) due Oct 30 — understand close path."},
+  {"sev":"MODERATE","rep":"Geoff Petrangelo","finding":"Geoff Petrangelo: Last active Sep 18 — 3 days. 3/5 = 60.0% — penetration dropped because target list was corrected to only 5 accounts (Toyota and Roush Ford removed). Roush Industries and Utilimaster still null — week 11. Pipeline $35.0M.","action":"Roush/Utilimaster: week 11 — must be resolved this week, log activity or remove from list. Ford P736 Drop-In ($9.6M Design) needs to advance."},
+  {"sev":"POSITIVE","rep":"Mariano Lobos","finding":"Mariano Lobos: Last active Sep 18 — 3 days. 19/19 = 100%. DeRemate and FORM both active Sep 18. Pipeline $20.9M with 32 opps. Strong across all accounts.","action":"BP 4048 Orange Stripe ($2.4M Quote) due Sep 30 — close this week. CBB RACKS ($2.86M Concept) — advance stage."},
+  {"sev":"POSITIVE","rep":"Jake Heinecke","finding":"Jake Heinecke: Last active Sep 14 — 7 days. 29/30 = 96.7% — Petco Animal Supplies still the only never-contacted. Pipeline $20.2M. AdaptaPak DC6 ($4M Prototype) due Oct 9 is the key near-term close.","action":"Contact Petco Animal Supplies this week for 100%. AdaptaPak DC6 ($4M) due Oct 9 — confirm order path and PO status with TriEnda."},
+  {"sev":"POSITIVE","rep":"Matt Olsen","finding":"Matt Olsen: Last active Sep 18 — 3 days. 28/29 = 96.6% — TREMEC still null. DDR Battery Pack dropped from $600K to $420K. Pipeline $9.4M with 19 opps. TESLA, RIVIAN, TK Sub 31 active this week.","action":"Contact TREMEC for 100%. R2 Tower Rack Bases ($250K BC) due Sep 17 — update close date. R2 Lockdown Rack ($1M BC) due Sep 11 — past due, update immediately."},
+  {"sev":"MODERATE","rep":"Vonn McQuiston","finding":"Vonn McQuiston: Last active Sep 21 — today. 18/21 = 85.7% — Veritiv-Wi, Waste Connections-Iowa Park, Sunbelt Rentals still null. Steel Replacement Bottoms $10K new (Texas Disposal). Several opps removed this week. Pipeline $17.2M with 28 opps.","action":"Initiate contact with Waste Connections-Iowa Park and Sunbelt Rentals. Roll Off Lid System $3M was due Sep 30 — update close date."}
 ];
 export const CHANGES = [
-  ["All Reps","Report Date","Sep 8, 2026","Sep 15, 2026","All 191 opps rebuilt live from Salesforce — all exact match","pos"],
-  ["Jack Subel","SLB gCUB","Not in pipeline","$1M Business Case","New SLB opp due Dec 1","pos"],
-  ["Jack Subel","SLB Freebird","Not in pipeline","$1M Business Case","New SLB opp due Dec 1","pos"],
-  ["Jack Subel","SLB 378 Frame Weldments","Prototype","Production Tool","Stage advanced","pos"],
-  ["Mariano Lobos","NEW PALLET BP 6832","Not in pipeline","$350K Business Case","New HIPERPACK opp","pos"],
-  ["Mariano Lobos","JCI Twin Battery Pallet","Was under Rebecca","$163K Quote (Mariano)","Moved from Rebecca to Mariano","pos"],
-  ["Matt Olsen","DDR Battery Pack","$931K Concept","$600K Concept","Amount dropped $331K","neg"],
-  ["Matt Olsen","AMR Top Hatting Rebuy","Not in pipeline","$28K RFI","New TESLA Metal Fab opp","pos"],
-  ["Matt Olsen","48 x 40 Crowder","Not in pipeline","$20K RFI","New TESLA Metal Fab opp","pos"],
-  ["Rebecca Krueger","SR200501 Racks","Active","REMOVED","Closed — removed from SF","pos"],
-  ["Rebecca Krueger","JCI Twin Battery Pallet","$135K Quote","Moved to Mariano","Transferred","neg"],
-  ["Vonn McQuiston","Brake Clamshell Packaging","Not in pipeline","$750K Concept","New Westlake opp","pos"],
-  ["Vonn McQuiston","IBC Panels","Not in pipeline","$10K RFI","New Schutz Container opp","pos"],
-  ["Vonn McQuiston","43x43 Heavy Duty Pallet","Not in pipeline","$8K RFI","New Nelson opp","pos"],
-  ["Geoff Petrangelo","Roush/Utilimaster","Week 9","Week 10","10 weeks — must escalate this week","neg"],
-  ["Kent Buckingham","Last Activity","Aug 17 (22d)","Aug 17 (29d)","29 days no activity — critical","neg"]
+  ["All Reps","Report Date","Sep 15, 2026","Sep 21, 2026","All 186 opps rebuilt live from Salesforce — all exact match","pos"],
+  ["Jack Subel","SLB Wire Basket Trays (WBT)","Not in pipeline","$24M Business Case","Major new SLB opp — pipeline jumps to $312M","pos"],
+  ["Rebecca Krueger","MIP Eagle PV Solar Panel Pallet","$510K Concept","$12.2M Concept","Amount jumped $11.7M — significant scope change","pos"],
+  ["Rebecca Krueger","Long & Short Coil Rack","$1.9M Business Case","REMOVED","Removed from SF this week","neg"],
+  ["Rebecca Krueger","Pipeline","$13.5M (47)","$21.1M (37)","MIP Eagle scope change drives increase despite fewer opps","pos"],
+  ["Kent Buckingham","Pipeline","$1.9M (7)","$3.6M (17)","Major expansion — SR200328 $644K, PackIQ opps, Veritiv accounts moved to Kent","pos"],
+  ["Kent Buckingham","Penetration","88.9% (16/18)","90.5% (19/21)","Expanded target list, still 2 never-contacted (Enterprise Sherwood/College Park)","pos"],
+  ["Geoff Petrangelo","Target List","7 accounts","5 accounts","Toyota Motor Sales and Roush Ford removed — list corrected in SF","neg"],
+  ["Geoff Petrangelo","Penetration","71.4% (5/7)","60.0% (3/5)","List correction changed calculation — Roush/Utilimaster still null week 11","neg"],
+  ["Matt Olsen","DDR Battery Pack","$600K Concept","$420K Concept","Amount dropped further","neg"],
+  ["Vonn McQuiston","Steel Replacement Bottoms","Not in pipeline","$10K Quote","New Texas Disposal opp","pos"],
+  ["Vonn McQuiston","Pipeline","$17.8M (34)","$17.2M (28)","Several opps removed/closed this week","neg"]
 ]
 export const TOP_ACCOUNTS = {};
