@@ -166,11 +166,11 @@ export const REP_DATA = {
     "n_opps": 24,
     "pipe": 12264966,
     "total_pipe": 20559467,
-    "n_accts": 29,
+    "n_accts": 26,
     "accts": [],
-    "n_targets": 30,
-    "never": 1,
-    "penetration": 96.7,
+    "n_targets": 38,
+    "never": 12,
+    "penetration": 68.4,
     "days_since": 0,
     "last_act": "2026-09-28",
     "monthly": {
@@ -2473,15 +2473,7 @@ export const TOP25_STATUS = {
       "engaged": true
     },
     {
-      "name": "Kroger - Salem, VA",
-      "engaged": true
-    },
-    {
       "name": "Tyson Foods (HQ - Springdale, AR)",
-      "engaged": true
-    },
-    {
-      "name": "Harris Teeter",
       "engaged": true
     },
     {
@@ -2537,10 +2529,6 @@ export const TOP25_STATUS = {
       "engaged": true
     },
     {
-      "name": "Kroger/Fred Meyer - Clackamas, OR",
-      "engaged": true
-    },
-    {
       "name": "AWG - Kenosha, WI",
       "engaged": true
     },
@@ -2555,6 +2543,50 @@ export const TOP25_STATUS = {
     {
       "name": "Niagara Bottling (HQ - Diamond Bar, CA)",
       "engaged": true
+    },
+    {
+      "name": "AB InBev",
+      "engaged": false
+    },
+    {
+      "name": "Constellation Brands",
+      "engaged": false
+    },
+    {
+      "name": "Coca-Cola",
+      "engaged": false
+    },
+    {
+      "name": "Beam Suntory",
+      "engaged": false
+    },
+    {
+      "name": "BNSF",
+      "engaged": false
+    },
+    {
+      "name": "Publix",
+      "engaged": false
+    },
+    {
+      "name": "Burlington",
+      "engaged": false
+    },
+    {
+      "name": "PetSmart",
+      "engaged": false
+    },
+    {
+      "name": "DrinkPak",
+      "engaged": false
+    },
+    {
+      "name": "Ball Corp",
+      "engaged": false
+    },
+    {
+      "name": "Crown Packaging",
+      "engaged": false
     }
   ],
   "Kent Buckingham": [
