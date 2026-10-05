@@ -33,6 +33,7 @@ const HISTORY = [
   { week: 'Sep 15', wtdM: 50.4,  activeM: 407.2, engaged: 177, acts: 1062, newOpps: 3,  winRate: 39.3 },
   { week: 'Sep 21', wtdM: 50.4,  activeM: 439.6, engaged: 177, acts: 1078, newOpps: 1,  winRate: 39.3 },
   { week: 'Sep 28', wtdM: 50.4,  activeM: 433.4, engaged: 177, acts: 1092, newOpps: 5,  winRate: 39.3 },
+  { week: 'Oct 5',  wtdM: 50.4,  activeM: 430.6, engaged: 177, acts: 1106, newOpps: 2,  winRate: 39.3 },
 ]
 
 const STAGE_ORDER = ['Request for Information','Concept','Business Case','Design','Quote','Prototype','Purchase Order / Awarded','Production']
@@ -56,7 +57,7 @@ const STAGE_INDEX = Object.fromEntries(STAGE_ORDER.map((s,i) => [s,i]))
 
 const short = rep => rep.split(' ')[0][0] + '. ' + rep.split(' ').slice(-1)[0]
 const daysBetween = (a, b) => Math.round((new Date(b) - new Date(a)) / 864e5)
-const TODAY = '2026-09-28'
+const TODAY = '2026-10-05'
 
 export default function TabPipeline({ setActiveTab }) {
   const [activeRep, setActiveRep] = useState('All')
@@ -271,7 +272,7 @@ export default function TabPipeline({ setActiveTab }) {
           {/* KPI grid — 8 stats */}
           <div className="grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-8 gap-2 mb-6">
             {[
-              { label: 'Active Pipeline',    value: fmtM(activeRep==='All' ? 433406348 : totalActive), accent: true,  tip:`Sum of all open opportunity amounts in SF. Team total = $433.4M across 176 open opps` },
+              { label: 'Active Pipeline',    value: fmtM(activeRep==='All' ? 430568766 : totalActive), accent: true,  tip:`Sum of all open opportunity amounts in SF. Team total = $430.6M across 177 open opps` },
               { label: 'Weighted Pipeline',  value: fmtM(totalWtd),                    orange: true,  tip:'SF-confirmed $50.4M (Jul 20 export). SF uses Stage_Probability__c override, not standard Probability%' },
               { label: 'Open Opportunities', value: activeRep==='All' ? 172 : totalOpps,           tip:'Active opps excluding Purchase Order/Awarded and Production' },
               { label: 'Avg Deal Size',      value: fmtM(avgDeal),                                   tip:'Active pipeline ÷ number of open opps' },

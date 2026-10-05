@@ -2,8 +2,8 @@ import React from 'react'
 import { REPS, REP_DATA } from '../data/dashboardData'
 import { fmtM, getStatus } from './utils'
 
-const MONTHS = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep']
-const MO_KEYS = ['1','2','3','4','5','6','7','8','9']
+const MONTHS = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct']
+const MO_KEYS = ['1','2','3','4','5','6','7','8','9','10']
 const maxPipe = Math.max(...REPS.map(r => REP_DATA[r].pipe))
 
 export default function TabSummary({ setActiveTab }) {
