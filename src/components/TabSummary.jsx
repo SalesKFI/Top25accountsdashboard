@@ -2,7 +2,7 @@ import React from 'react'
 import { REPS, REP_DATA } from '../data/dashboardData'
 import { fmtM, getStatus } from './utils'
 
-const MONTHS = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct']
+const MONTHS = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov']
 const MO_KEYS = ['1','2','3','4','5','6','7','8','9','10']
 const maxPipe = Math.max(...REPS.map(r => REP_DATA[r].pipe))
 
