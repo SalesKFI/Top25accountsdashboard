@@ -38,10 +38,7 @@ const HISTORY = [
   { week: 'Oct 19', wtdM: 50.4,  activeM: 328.9, engaged: 177, acts: 1134, newOpps: 0,  winRate: 39.3 },
   { week: 'Oct 26', wtdM: 50.4,  activeM: 319.1, engaged: 177, acts: 1148, newOpps: 2,  winRate: 39.3 },
   { week: 'Nov 2',  wtdM: 50.4,  activeM: 414.3, engaged: 177, acts: 1162, newOpps: 4,  winRate: 39.3 },
-  { week: 'Oct 5',  wtdM: 50.4,  activeM: 430.6, engaged: 177, acts: 1106, newOpps: 2,  winRate: 39.3 },
-  { week: 'Oct 12', wtdM: 50.4,  activeM: 428.9, engaged: 177, acts: 1120, newOpps: 0,  winRate: 39.3 },
-  { week: 'Oct 19', wtdM: 50.4,  activeM: 328.9, engaged: 177, acts: 1134, newOpps: 0,  winRate: 39.3 },
-  { week: 'Oct 26', wtdM: 50.4,  activeM: 319.1, engaged: 177, acts: 1148, newOpps: 2,  winRate: 39.3 },
+  { week: 'Nov 10', wtdM: 50.4,  activeM: 391.0, engaged: 177, acts: 1176, newOpps: 3,  winRate: 39.3 },
 ]
 
 const STAGE_ORDER = ['Request for Information','Concept','Business Case','Design','Quote','Prototype','Purchase Order / Awarded','Production']
@@ -65,7 +62,7 @@ const STAGE_INDEX = Object.fromEntries(STAGE_ORDER.map((s,i) => [s,i]))
 
 const short = rep => rep.split(' ')[0][0] + '. ' + rep.split(' ').slice(-1)[0]
 const daysBetween = (a, b) => Math.round((new Date(b) - new Date(a)) / 864e5)
-const TODAY = '2026-11-02'
+const TODAY = '2026-11-10'
 
 export default function TabPipeline({ setActiveTab }) {
   const [activeRep, setActiveRep] = useState('All')
@@ -280,7 +277,7 @@ export default function TabPipeline({ setActiveTab }) {
           {/* KPI grid — 8 stats */}
           <div className="grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-8 gap-2 mb-6">
             {[
-              { label: 'Active Pipeline',    value: fmtM(activeRep==='All' ? 414330190 : totalActive), accent: true,  tip:`Sum of all open opportunity amounts in SF. Team total = $414.3M across 159 open opps` },
+              { label: 'Active Pipeline',    value: fmtM(activeRep==='All' ? 391032938 : totalActive), accent: true,  tip:`Sum of all open opportunity amounts in SF. Team total = $391.0M across 148 open opps` },
               { label: 'Weighted Pipeline',  value: fmtM(totalWtd),                    orange: true,  tip:'SF-confirmed $50.4M (Jul 20 export). SF uses Stage_Probability__c override, not standard Probability%' },
               { label: 'Open Opportunities', value: activeRep==='All' ? 172 : totalOpps,           tip:'Active opps excluding Purchase Order/Awarded and Production' },
               { label: 'Avg Deal Size',      value: fmtM(avgDeal),                                   tip:'Active pipeline ÷ number of open opps' },
@@ -1052,7 +1049,7 @@ export default function TabPipeline({ setActiveTab }) {
           byRep: [
             { rep:'Rebecca Krueger', s:[ {won:3,total:29},{won:0,total:25},{won:0,total:4}  ] },
             { rep:'Matt Olsen',      s:[ {won:18,total:45},{won:2,total:26},{won:1,total:5}  ] },
-            { rep:'Geoff Petrangelo',s:[ {won:0,total:0}, {won:2,total:5}, {won:1,total:1}  ] },
+            { rep:'Eric Cin',s:[ {won:0,total:0}, {won:2,total:5}, {won:1,total:1}  ] },
             { rep:'Kent Buckingham', s:[ {won:0,total:0}, {won:2,total:3}, {won:0,total:0}  ] },
             { rep:'Vonn McQuiston',  s:[ {won:8,total:16},{won:1,total:2}, {won:0,total:0}  ] },
             { rep:'Mariano Lobos',   s:[ {won:16,total:44},{won:2,total:19},{won:1,total:4} ] },
@@ -1063,7 +1060,7 @@ export default function TabPipeline({ setActiveTab }) {
 
         const sizeLabels = ['< $100K','$100K – $1M','$1M+']
         const sizeColors = ['#19315b','#2d6bb5','#5b4fb5']
-        const REP_COLORS = {'Rebecca Krueger':'#19315b','Matt Olsen':'#2d6bb5','Geoff Petrangelo':'#5b4fb5','Kent Buckingham':'#0e8a8a','Vonn McQuiston':'#1a7a4a','Mariano Lobos':'#c47a00','Jake Heinecke':'#b52d2d','Jack Subel':'#8b2d6b'}
+        const REP_COLORS = {'Rebecca Krueger':'#19315b','Matt Olsen':'#2d6bb5','Eric Cin':'#5b4fb5','Kent Buckingham':'#0e8a8a','Vonn McQuiston':'#1a7a4a','Mariano Lobos':'#c47a00','Jake Heinecke':'#b52d2d','Jack Subel':'#8b2d6b'}
 
         // Chart data for size buckets
         const sizeChartData = WR.bySize.map(b=>({

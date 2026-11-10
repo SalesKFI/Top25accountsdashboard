@@ -44,7 +44,7 @@ export default function TabRepDetail({ rep, setActiveTab }) {
   const neverAccts   = top25.filter(a => !a.engaged)
   const shownAccts   = acctFilter==='engaged' ? engagedAccts : acctFilter==='never' ? neverAccts : top25
 
-  const isGeoff = rep === 'Geoff Petrangelo'
+  const isGeoff = rep === 'Eric Cin'
 
   return (
     <div className="p-4 md:p-8 w-full">
