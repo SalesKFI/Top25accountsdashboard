@@ -3,7 +3,7 @@
 // Target lists sourced LIVE from Salesforce: Account/Lead Rating = "Top 25 Target"
 // Activities sourced LIVE from Salesforce: Task object, Status = Completed, YTD 2026
 
-export const REPORT_DATE = "November 10, 2026";
+export const REPORT_DATE = "November 9, 2026";
 
 export const REPS = [
   "Rebecca Krueger",
@@ -3006,7 +3006,7 @@ export const FINDINGS = [
   {"sev":"MODERATE","rep":"Eric Cin","finding":"Eric Cin: Last active Nov 9 — 1 day. 15/24 = 62.5% — 9 never-contacted accounts. Ford FCSD and AutoPort active Nov 9. Inheriting all former Geoff Petrangelo automotive accessories opps: 12 opps totaling $29.6M. Pipeline includes Ford P736 Drop-In $9.6M, RT_Stellantis R4P Rampage $10M, Ford F-150 WWLs, Scout SM517 $1M, RT_MOBIS Ioniq $950K back.","action":"Prioritize outreach to 9 never-contacted accounts: Roush, Utilimaster, Enterprise locations, Nobile Brothers, Competition Specialties, Toyota. Ford P736 Drop-In $9.6M at Design — advance to Business Case."}
 ];
 export const CHANGES = [
-  ["All Reps","Report Date","Nov 2, 2026","November 10, 2026","All 148 opps rebuilt live from Salesforce — 7/8 reps exact match","pos"],
+  ["All Reps","Report Date","Nov 2, 2026","November 9, 2026","All 148 opps rebuilt live from Salesforce — 7/8 reps exact match","pos"],
   ["Eric Cin","Replaces Geoff Petrangelo","Geoff departed","Eric Cin added","All 12 former Geoff opps reassigned to Eric Cin in SF. Eric inherits $29.6M pipeline.","pos"],
   ["Jake Heinecke","Swire Coca Cola Bulkhead Spacers","Not in pipeline","$200K Request for Sample","New opp — Swire Coca Cola USA","pos"],
   ["Jake Heinecke","DC4 42 X 48 Harris Teeter","$301K Quote","REMOVED","Removed from SF","pos"],

@@ -38,7 +38,7 @@ const HISTORY = [
   { week: 'Oct 19', wtdM: 50.4,  activeM: 328.9, engaged: 177, acts: 1134, newOpps: 0,  winRate: 39.3 },
   { week: 'Oct 26', wtdM: 50.4,  activeM: 319.1, engaged: 177, acts: 1148, newOpps: 2,  winRate: 39.3 },
   { week: 'Nov 2',  wtdM: 50.4,  activeM: 414.3, engaged: 177, acts: 1162, newOpps: 4,  winRate: 39.3 },
-  { week: 'Nov 10', wtdM: 50.4,  activeM: 391.0, engaged: 177, acts: 1176, newOpps: 3,  winRate: 39.3 },
+  { week: 'Nov 9',  wtdM: 50.4,  activeM: 391.0, engaged: 177, acts: 1176, newOpps: 3,  winRate: 39.3 },
 ]
 
 const STAGE_ORDER = ['Request for Information','Concept','Business Case','Design','Quote','Prototype','Purchase Order / Awarded','Production']
@@ -62,7 +62,7 @@ const STAGE_INDEX = Object.fromEntries(STAGE_ORDER.map((s,i) => [s,i]))
 
 const short = rep => rep.split(' ')[0][0] + '. ' + rep.split(' ').slice(-1)[0]
 const daysBetween = (a, b) => Math.round((new Date(b) - new Date(a)) / 864e5)
-const TODAY = '2026-11-10'
+const TODAY = '2026-11-09'
 
 export default function TabPipeline({ setActiveTab }) {
   const [activeRep, setActiveRep] = useState('All')
