@@ -39,6 +39,8 @@ const HISTORY = [
   { week: 'Oct 26', wtdM: 50.4,  activeM: 319.1, engaged: 177, acts: 1148, newOpps: 2,  winRate: 39.3 },
   { week: 'Nov 2',  wtdM: 50.4,  activeM: 414.3, engaged: 177, acts: 1162, newOpps: 4,  winRate: 39.3 },
   { week: 'Nov 9',  wtdM: 50.4,  activeM: 391.0, engaged: 177, acts: 1176, newOpps: 3,  winRate: 39.3 },
+  { week: 'Nov 16', wtdM: 50.4,  activeM: 421.1, engaged: 177, acts: 1190, newOpps: 5,  winRate: 39.3 },
+  { week: 'Nov 23', wtdM: 50.4,  activeM: 419.1, engaged: 177, acts: 1204, newOpps: 3,  winRate: 39.3 },
 ]
 
 const STAGE_ORDER = ['Request for Information','Concept','Business Case','Design','Quote','Prototype','Purchase Order / Awarded','Production']
@@ -62,7 +64,7 @@ const STAGE_INDEX = Object.fromEntries(STAGE_ORDER.map((s,i) => [s,i]))
 
 const short = rep => rep.split(' ')[0][0] + '. ' + rep.split(' ').slice(-1)[0]
 const daysBetween = (a, b) => Math.round((new Date(b) - new Date(a)) / 864e5)
-const TODAY = '2026-11-09'
+const TODAY = '2026-11-23'
 
 export default function TabPipeline({ setActiveTab }) {
   const [activeRep, setActiveRep] = useState('All')
@@ -277,7 +279,7 @@ export default function TabPipeline({ setActiveTab }) {
           {/* KPI grid — 8 stats */}
           <div className="grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-8 gap-2 mb-6">
             {[
-              { label: 'Active Pipeline',    value: fmtM(activeRep==='All' ? 391032938 : totalActive), accent: true,  tip:`Sum of all open opportunity amounts in SF. Team total = $391.0M across 148 open opps` },
+              { label: 'Active Pipeline',    value: fmtM(activeRep==='All' ? 419079384 : totalActive), accent: true,  tip:`Sum of all open opportunity amounts in SF. Team total = $419.1M across 166 open opps` },
               { label: 'Weighted Pipeline',  value: fmtM(totalWtd),                    orange: true,  tip:'SF-confirmed $50.4M (Jul 20 export). SF uses Stage_Probability__c override, not standard Probability%' },
               { label: 'Open Opportunities', value: activeRep==='All' ? 172 : totalOpps,           tip:'Active opps excluding Purchase Order/Awarded and Production' },
               { label: 'Avg Deal Size',      value: fmtM(avgDeal),                                   tip:'Active pipeline ÷ number of open opps' },
