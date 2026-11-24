@@ -40,7 +40,7 @@ const HISTORY = [
   { week: 'Nov 2',  wtdM: 50.4,  activeM: 414.3, engaged: 177, acts: 1162, newOpps: 4,  winRate: 39.3 },
   { week: 'Nov 9',  wtdM: 50.4,  activeM: 391.0, engaged: 177, acts: 1176, newOpps: 3,  winRate: 39.3 },
   { week: 'Nov 16', wtdM: 50.4,  activeM: 421.1, engaged: 177, acts: 1190, newOpps: 5,  winRate: 39.3 },
-  { week: 'Nov 23', wtdM: 50.4,  activeM: 419.1, engaged: 177, acts: 1204, newOpps: 3,  winRate: 39.3 },
+  { week: 'Nov 23', wtdM: 50.4,  activeM: 419.1, engaged: 177, acts: 40954, newOpps: 3,  winRate: 39.3 },
 ]
 
 const STAGE_ORDER = ['Request for Information','Concept','Business Case','Design','Quote','Prototype','Purchase Order / Awarded','Production']

@@ -239,9 +239,9 @@ const LOST_2026 = [
 
 const EIGHT_REPS = ["Rebecca Krueger","Matt Olsen","Geoff Petrangelo","Kent Buckingham","Vonn McQuiston","Mariano Lobos","Jake Heinecke","Jack Subel"]
 const ALL_REPS   = [...EIGHT_REPS, 'Other']
-const MONTHS     = ['Jan','Feb','Mar','Apr','May','Jun','Jul']
-const MONTH_NUM  = {Jan:1,Feb:2,Mar:3,Apr:4,May:5,Jun:6,Jul:7}
-const MONTH_FULL = {Jan:'January',Feb:'February',Mar:'March',Apr:'April',May:'May',Jun:'June',Jul:'July'}
+const MONTHS     = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov']
+const MONTH_NUM  = {Jan:1,Feb:2,Mar:3,Apr:4,May:5,Jun:6,Jul:7,Aug:8,Sep:9,Oct:10,Nov:11}
+const MONTH_FULL = {Jan:'January',Feb:'February',Mar:'March',Apr:'April',May:'May',Jun:'June',Jul:'July',Aug:'August',Sep:'September',Oct:'October',Nov:'November'}
 
 const REP_COLORS = {
   'Rebecca Krueger':'#19315b','Matt Olsen':'#2d6bb5','Geoff Petrangelo':'#5b4fb5',

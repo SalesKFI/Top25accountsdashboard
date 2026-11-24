@@ -18,13 +18,13 @@ export const REPS = [
 
 export const REP_DATA = {
   "Rebecca Krueger": {
-    "n_acts": 1052,
+    "n_acts": 9884,
     "n_opps": 50,
     "pipe": 21964908,
     "total_pipe": 24964908,
-    "n_accts": 29,
+    "n_accts": 27,
     "accts": [],
-    "n_targets": 29,
+    "n_targets": 27,
     "never": 0,
     "penetration": 100.0,
     "days_since": 0,
@@ -41,10 +41,11 @@ export const REP_DATA = {
       "9": 240,
       "10": 88,
       "11": 45
-    }
+    },
+    "never_list": []
   },
   "Matt Olsen": {
-    "n_acts": 288,
+    "n_acts": 1631,
     "n_opps": 14,
     "pipe": 5167074,
     "total_pipe": 5167074,
@@ -67,10 +68,13 @@ export const REP_DATA = {
       "9": 78,
       "10": 38,
       "11": 22
-    }
+    },
+    "never_list": [
+      "Connor Metal Stamping de M\u00e9xico"
+    ]
   },
   "Eric Cin": {
-    "n_acts": 155,
+    "n_acts": 3,
     "n_opps": 12,
     "pipe": 29636622,
     "total_pipe": 29636622,
@@ -93,10 +97,21 @@ export const REP_DATA = {
       "9": 0,
       "10": 0,
       "11": 0
-    }
+    },
+    "never_list": [
+      "70998 - Roush Industries",
+      "Competition Specialties, Inc.",
+      "Enterprise - College Park",
+      "Enterprise - Dallas Truck Ctr",
+      "Enterprise - Scott Depot, WV",
+      "Enterprise - Sherwood",
+      "Nobile Brothers Truck Accessories",
+      "Toyota Motor Sales/Napld",
+      "Utilimaster Services, LLC"
+    ]
   },
   "Kent Buckingham": {
-    "n_acts": 88,
+    "n_acts": 486,
     "n_opps": 16,
     "pipe": 1640965,
     "total_pipe": 1640965,
@@ -119,18 +134,19 @@ export const REP_DATA = {
       "9": 25,
       "10": 18,
       "11": 8
-    }
+    },
+    "never_list": []
   },
   "Vonn McQuiston": {
-    "n_acts": 301,
+    "n_acts": 9730,
     "n_opps": 29,
     "pipe": 109807840,
     "total_pipe": 116807840,
-    "n_accts": 10,
+    "n_accts": 9,
     "accts": [],
-    "n_targets": 12,
+    "n_targets": 11,
     "never": 2,
-    "penetration": 83.3,
+    "penetration": 81.8,
     "days_since": 14,
     "last_act": "2026-11-09",
     "monthly": {
@@ -145,10 +161,14 @@ export const REP_DATA = {
       "9": 88,
       "10": 22,
       "11": 10
-    }
+    },
+    "never_list": [
+      "Mustang Extreme Environmental Services",
+      "Waste Connections-Iowa Park, TX"
+    ]
   },
   "Mariano Lobos": {
-    "n_acts": 31500,
+    "n_acts": 14113,
     "n_opps": 15,
     "pipe": 1963567,
     "total_pipe": 6963567,
@@ -171,18 +191,19 @@ export const REP_DATA = {
       "9": 11200,
       "10": 3200,
       "11": 1200
-    }
+    },
+    "never_list": []
   },
   "Jake Heinecke": {
-    "n_acts": 234,
+    "n_acts": 4749,
     "n_opps": 20,
     "pipe": 14196992,
     "total_pipe": 21696992,
     "n_accts": 28,
     "accts": [],
-    "n_targets": 41,
-    "never": 13,
-    "penetration": 68.3,
+    "n_targets": 30,
+    "never": 2,
+    "penetration": 93.3,
     "days_since": 0,
     "last_act": "2026-11-23",
     "monthly": {
@@ -197,18 +218,22 @@ export const REP_DATA = {
       "9": 96,
       "10": 28,
       "11": 12
-    }
+    },
+    "never_list": [
+      "Goodwill Colorado",
+      "Petco Animal Supplies"
+    ]
   },
   "Jack Subel": {
-    "n_acts": 12,
+    "n_acts": 358,
     "n_opps": 10,
     "pipe": 212201418,
     "total_pipe": 212201418,
     "n_accts": 10,
     "accts": [],
-    "n_targets": 10,
-    "never": 0,
-    "penetration": 100.0,
+    "n_targets": 11,
+    "never": 1,
+    "penetration": 90.9,
     "days_since": 0,
     "last_act": "2026-11-23",
     "monthly": {
@@ -223,7 +248,10 @@ export const REP_DATA = {
       "9": 12,
       "10": 8,
       "11": 5
-    }
+    },
+    "never_list": [
+      "Kubota Mfg. Of America Corp."
+    ]
   }
 };
 
@@ -3084,14 +3112,14 @@ export const TOP25_STATUS = {
 };
 
 export const FINDINGS = [
-  {"sev":"HIGH","rep":"Eric Cin","finding":"Eric Cin: Last active today (Nov 23). 15/24 = 62.5% — 9 never-contacted: Roush, Utilimaster, 4 Enterprise locations, Nobile Brothers, Competition Specialties, Toyota. Pipeline $29.6M with 12 opps. Ford P736 Drop-In $9.6M still at Design.","action":"9 accounts never contacted after 7+ weeks. Contact Roush Industries and Utilimaster this week. Ford P736 Drop-In $9.6M — advance from Design to Business Case."},
-  {"sev":"HIGH","rep":"Jack Subel","finding":"Jack Subel: Last active today (Nov 23). 10/10 = 100%. SLB Lifting Skids $5.8M close date Nov 30 — one week. SLB WBT $24M BC close Dec 1. SLB 5GB $380K close Dec 4. Pipeline $212.2M with 10 opps.","action":"SLB Lifting Skids $5.8M — Nov 30 close in one week. Advance from Concept. SLB WBT $24M closes Dec 1 — confirm Business Case status."},
-  {"sev":"HIGH","rep":"Vonn McQuiston","finding":"Vonn McQuiston: Last active Nov 9 — 14 days. 10/12 = 83.3% — Iowa Park and Mustang Extreme still null. +Premier PV 4845 Panel $500K BC (new this week). -Opti-Pack $50K, -BP48x96 $64K, -Steel Replacement $20K removed. Pipeline $116.8M with 29 opps.","action":"14 days without activity. Contact Iowa Park and Mustang Extreme immediately. 95G Bear Proof Prototype due Dec 16. Composite Timber $100M BC — advance to Design."},
-  {"sev":"POSITIVE","rep":"Jake Heinecke","finding":"Jake Heinecke: Last active today (Nov 23) — Niagara, TJX, Aldi active. 28/41 = 68.3% — 13 never-contacted. TJXX DC6 Tall Lip advanced to Quote at $4.9M — due Nov 27 this week. Niagara 12oz $633K Quote due Nov 27. Pipeline $21.7M with 20 opps.","action":"TJXX DC6 Tall Lip $4.9M Quote and Niagara 12oz $633K both due Nov 27 — close both this week."},
-  {"sev":"POSITIVE","rep":"Kent Buckingham","finding":"Kent Buckingham: Last active today (Nov 23) — Uline active. 12/12 = 100% all accounts engaged. JLG engaged Nov 19. Nordstrom $719.8K due Nov 30. Postal Products $24K due Nov 30. Big Pak Corning $110K due Nov 27. Pipeline $1.6M with 16 opps.","action":"Nordstrom $719.8K, Big Pak $110K, Postal Products $24K — all close this week. Confirm all three."},
-  {"sev":"POSITIVE","rep":"Mariano Lobos","finding":"Mariano Lobos: Last active today (Nov 23) — FORM, Forvia, Faurecia active. 20/20 = 100%. -CBB RACKS $2.86M removed (confirm won/lost). +Spheros HVAC $300K BC (new). Pipeline $7.0M with 15 opps. Superior PC 18 Wheel Packs due Nov 30.","action":"CBB RACKS $2.86M removed — confirm outcome with Mariano. Spheros HVAC $300K BC — qualify this week. BP 4048 $2.2M Quote — push to close Dec 31."},
-  {"sev":"POSITIVE","rep":"Matt Olsen","finding":"Matt Olsen: Last active today (Nov 23) — Rivian, Lucid active. 31/32 = 96.9%. PCS Tesla jumped $156K→$677K Quote due Nov 27. P51 Lucid opps (Rotor $286K, Stators $223K, Tall Rotor $137K) all due Nov 30. DDR Battery $494K due Nov 30. Pipeline $5.2M with 14 opps.","action":"PCS Tesla $677K Quote due Nov 27 — close this week. P51 Lucid opps and DDR Battery all due Nov 30 — confirm delivery status."},
-  {"sev":"POSITIVE","rep":"Rebecca Krueger","finding":"Rebecca Krueger: Last active today (Nov 23) — Lear, Honda, Volvo, Meritor, Toyota MFG, Daimler all active. 29/29 = 100% (Jtekt null is duplicate). +P4-7211 Chassis Side Fairing $150K BC. +CH22245 Trays $20K (OE Wheelworks). Accuride $3.035M advanced to Quote. SR200608 advanced to Prototype. Multiple Nov 30 closes. Pipeline $25.0M with 50 opps.","action":"SR200608 Fuel Tank $567K Prototype due Nov 30 — advance to Quote. PCS Tesla due Nov 27. Honda 30M Pilot opps and Magna MG2 all due Nov 30 this week."}
+  {"sev":"HIGH","rep":"Eric Cin","finding":"Eric Cin: 15/24 = 62.5% — 9 never-contacted: Roush, Competition Specialties, 4 Enterprise locations, Nobile Brothers, Toyota, Utilimaster. Pipeline $29.6M with 12 opps.","action":"9 accounts never contacted after 7+ weeks. Prioritize Roush and Utilimaster this week."},
+  {"sev":"HIGH","rep":"Jack Subel","finding":"Jack Subel: 10/11 = 90.9% — Kubota (1 of 2 records) never contacted. SLB Lifting Skids $5.8M past due. Pipeline $212.2M with 10 opps.","action":"SLB Lifting Skids $5.8M past due — advance from Concept. Contact Kubota."},
+  {"sev":"HIGH","rep":"Vonn McQuiston","finding":"Vonn McQuiston: 9/11 = 81.8% — Mustang Extreme and Waste Connections-Iowa Park never contacted. Last active Nov 9 (14 days). Pipeline $116.8M.","action":"14 days without activity. Contact Iowa Park and Mustang Extreme immediately."},
+  {"sev":"POSITIVE","rep":"Jake Heinecke","finding":"Jake Heinecke: 28/30 = 93.3% — Goodwill Colorado and Petco never contacted. TJXX DC6 $4.9M and Niagara 12oz $633K both past Nov 27 close. Pipeline $21.7M.","action":"Follow up on TJXX DC6 and Niagara outcomes. Contact Goodwill and Petco."},
+  {"sev":"POSITIVE","rep":"Kent Buckingham","finding":"Kent Buckingham: 12/12 = 100% all accounts engaged. Nordstrom $719.8K and Postal Products $24K past Nov 30 close. Pipeline $1.6M with 16 opps.","action":"Confirm Nordstrom and Postal Products order outcomes."},
+  {"sev":"POSITIVE","rep":"Mariano Lobos","finding":"Mariano Lobos: 20/20 = 100%. CBB RACKS $2.86M removed — confirm won/lost. Spheros HVAC $300K BC new. Pipeline $7.0M with 15 opps.","action":"Confirm CBB RACKS outcome. Qualify Spheros HVAC this week."},
+  {"sev":"POSITIVE","rep":"Matt Olsen","finding":"Matt Olsen: 31/32 = 96.9% — Connor Metal Stamping never contacted. PCS Tesla $677K past Nov 27. P51 Lucid and DDR Battery past Nov 30. Pipeline $5.2M.","action":"Confirm PCS Tesla, Lucid P51 and DDR Battery outcomes. Contact Connor Metal Stamping."},
+  {"sev":"POSITIVE","rep":"Rebecca Krueger","finding":"Rebecca Krueger: 27/27 = 100% all accounts engaged. SR200608 Prototype due Nov 30. Accuride $3.035M Quote due Dec 18. Pipeline $25.0M with 50 opps.","action":"SR200608 $567K — advance to Quote. Confirm Honda and Magna MG2 Nov 30 outcomes."}
 ];
 export const CHANGES = [
   ["All Reps","Report Date","Nov 16, 2026","November 23, 2026","All 166 opps rebuilt live from Salesforce — all 8 reps exact match","pos"],
