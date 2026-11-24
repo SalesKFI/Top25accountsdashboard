@@ -105,8 +105,8 @@ export const REP_DATA = {
     "n_targets": 12,
     "never": 0,
     "penetration": 100.0,
-    "days_since": 3,
-    "last_act": "2026-11-20",
+    "days_since": 0,
+    "last_act": "2026-11-23",
     "monthly": {
       "1": 8,
       "2": 12,
@@ -3084,34 +3084,33 @@ export const TOP25_STATUS = {
 };
 
 export const FINDINGS = [
-  {"sev":"HIGH","rep":"Eric Cin","finding":"Eric Cin: Last active today (Nov 23) — AutoPort. 15/24 = 62.5% — 9 never-contacted: Roush, Utilimaster, 4 Enterprise locations, Nobile Brothers, Competition Specialties, Toyota. Pipeline $29.6M unchanged with 12 opps. Ford P736 Drop-In $9.6M still at Design, RT_Rampage $10M at Business Case.","action":"9 accounts still never contacted after 6+ weeks. Contact Roush Industries and Utilimaster this week. Ford P736 Drop-In $9.6M — advance from Design to Business Case."},
-  {"sev":"HIGH","rep":"Jack Subel","finding":"Jack Subel: Last active today (Nov 23) — SLB active. 10/10 = 100%. SLB Lifting Skids $5.8M close date was Nov 30 — past due now. SLB WBT $24M BC close Dec 1. SLB 5GB $380K close Dec 4. Pipeline $212.2M with 10 opps.","action":"SLB Lifting Skids $5.8M — Nov 30 past due, update close date and advance from Concept. SLB WBT $24M — Dec 1 close this week. 5GB $380K due Dec 4."},
-  {"sev":"HIGH","rep":"Vonn McQuiston","finding":"Vonn McQuiston: Last active Nov 9 — 14 days. 10/12 = 83.3% — Iowa Park and Mustang Extreme still null. +Premier PV 4845 Panel & Harness Enclosure $500K BC (new account). -Opti-Pack $50K, -BP48x96 $64K, -Steel Replacement $20K removed. Pipeline $116.8M with 29 opps.","action":"14 days since last activity — contact Vonn now. Contact Iowa Park and Mustang Extreme. 95G Bear Proof Prototype due Dec 16 — this month."},
-  {"sev":"POSITIVE","rep":"Jake Heinecke","finding":"Jake Heinecke: Last active today (Nov 23) — Aldi, TJX active. 28/41 = 68.3% — 13 never-contacted. TJXX DC6 Tall Lip advanced to Quote at $4.9M — due Nov 27 this week. Niagara 12oz Quote due Nov 27. Pipeline $21.7M with 20 opps.","action":"TJXX DC6 Tall Lip $4.9M Quote due Nov 27 — close this week. Niagara 12oz $633K Quote due Nov 27 — confirm order."},
-  {"sev":"POSITIVE","rep":"Kent Buckingham","finding":"Kent Buckingham: Last active Nov 20 — 3 days. 12/12 = 100%. JLG added as new target account (engaged Nov 19). Nordstrom close updated to Nov 30 — this week. IBC Black Greif $60K removed. Euro Pallet & Lid $180K still active. Pipeline $1.6M with 16 opps.","action":"Nordstrom $719.8K Quote due Nov 30 — close this week. Postal Products $24K due Nov 30. Schutz IBC $25K due Nov 20 — confirm outcome."},
-  {"sev":"POSITIVE","rep":"Mariano Lobos","finding":"Mariano Lobos: Last active today (Nov 23) — FAURECIA, Forvia, FORM all active. 20/20 = 100%. -CBB RACKS $2.86M removed (significant pipeline reduction). +Spheros HVAC Covers $300K BC (SPHEROS NORTH AMERICA, new account). Pipeline $7.0M with 15 opps.","action":"CBB RACKS $2.86M removed — confirm closed won or lost. Spheros HVAC $300K BC due Dec 31 — qualify. BP 4048 Orange Stripe $2.2M Quote — confirm order."},
-  {"sev":"POSITIVE","rep":"Matt Olsen","finding":"Matt Olsen: Last active today (Nov 23) — Lucid, Rivian active. 31/32 = 96.9%. PCS Tesla Tray jumped $156K→$677K (huge increase). Oshkosh now $1.5M. Rivian R2 Caliper Tray Redesign removed. JATCO $206K due Nov 20 — past due. Pipeline $5.2M with 14 opps.","action":"PCS Tesla Tray $677K Quote due Nov 27 — close this week. JATCO $206K due Nov 20 — update close date. P51 Lucid opps all due Nov 30 — confirm delivery status."},
-  {"sev":"POSITIVE","rep":"Rebecca Krueger","finding":"Rebecca Krueger: Last active today (Nov 23) — Volvo, Toyota MFG, Daimler, Lear all active. 29/29 = 100% (Jtekt null is duplicate). +P4-7211 Chassis Side Fairing Rack $150K BC (PackIQ). +CH22245 Trays $20K RFI (OE Wheelworks, new account). Accuride $3.035M advanced to Quote. SR200608 advanced to Prototype. Pipeline $25.0M with 50 opps.","action":"SR200608 Fuel Tank $567K Prototype due Nov 30 — close approaching. Accuride $3.035M Quote due Dec 18. Honda 30M Pilot opps due Nov 30 — this week. Magna MG2 $100K due Nov 30."}
+  {"sev":"HIGH","rep":"Eric Cin","finding":"Eric Cin: Last active today (Nov 23). 15/24 = 62.5% — 9 never-contacted: Roush, Utilimaster, 4 Enterprise locations, Nobile Brothers, Competition Specialties, Toyota. Pipeline $29.6M with 12 opps. Ford P736 Drop-In $9.6M still at Design.","action":"9 accounts never contacted after 7+ weeks. Contact Roush Industries and Utilimaster this week. Ford P736 Drop-In $9.6M — advance from Design to Business Case."},
+  {"sev":"HIGH","rep":"Jack Subel","finding":"Jack Subel: Last active today (Nov 23). 10/10 = 100%. SLB Lifting Skids $5.8M close date Nov 30 — one week. SLB WBT $24M BC close Dec 1. SLB 5GB $380K close Dec 4. Pipeline $212.2M with 10 opps.","action":"SLB Lifting Skids $5.8M — Nov 30 close in one week. Advance from Concept. SLB WBT $24M closes Dec 1 — confirm Business Case status."},
+  {"sev":"HIGH","rep":"Vonn McQuiston","finding":"Vonn McQuiston: Last active Nov 9 — 14 days. 10/12 = 83.3% — Iowa Park and Mustang Extreme still null. +Premier PV 4845 Panel $500K BC (new this week). -Opti-Pack $50K, -BP48x96 $64K, -Steel Replacement $20K removed. Pipeline $116.8M with 29 opps.","action":"14 days without activity. Contact Iowa Park and Mustang Extreme immediately. 95G Bear Proof Prototype due Dec 16. Composite Timber $100M BC — advance to Design."},
+  {"sev":"POSITIVE","rep":"Jake Heinecke","finding":"Jake Heinecke: Last active today (Nov 23) — Niagara, TJX, Aldi active. 28/41 = 68.3% — 13 never-contacted. TJXX DC6 Tall Lip advanced to Quote at $4.9M — due Nov 27 this week. Niagara 12oz $633K Quote due Nov 27. Pipeline $21.7M with 20 opps.","action":"TJXX DC6 Tall Lip $4.9M Quote and Niagara 12oz $633K both due Nov 27 — close both this week."},
+  {"sev":"POSITIVE","rep":"Kent Buckingham","finding":"Kent Buckingham: Last active today (Nov 23) — Uline active. 12/12 = 100% all accounts engaged. JLG engaged Nov 19. Nordstrom $719.8K due Nov 30. Postal Products $24K due Nov 30. Big Pak Corning $110K due Nov 27. Pipeline $1.6M with 16 opps.","action":"Nordstrom $719.8K, Big Pak $110K, Postal Products $24K — all close this week. Confirm all three."},
+  {"sev":"POSITIVE","rep":"Mariano Lobos","finding":"Mariano Lobos: Last active today (Nov 23) — FORM, Forvia, Faurecia active. 20/20 = 100%. -CBB RACKS $2.86M removed (confirm won/lost). +Spheros HVAC $300K BC (new). Pipeline $7.0M with 15 opps. Superior PC 18 Wheel Packs due Nov 30.","action":"CBB RACKS $2.86M removed — confirm outcome with Mariano. Spheros HVAC $300K BC — qualify this week. BP 4048 $2.2M Quote — push to close Dec 31."},
+  {"sev":"POSITIVE","rep":"Matt Olsen","finding":"Matt Olsen: Last active today (Nov 23) — Rivian, Lucid active. 31/32 = 96.9%. PCS Tesla jumped $156K→$677K Quote due Nov 27. P51 Lucid opps (Rotor $286K, Stators $223K, Tall Rotor $137K) all due Nov 30. DDR Battery $494K due Nov 30. Pipeline $5.2M with 14 opps.","action":"PCS Tesla $677K Quote due Nov 27 — close this week. P51 Lucid opps and DDR Battery all due Nov 30 — confirm delivery status."},
+  {"sev":"POSITIVE","rep":"Rebecca Krueger","finding":"Rebecca Krueger: Last active today (Nov 23) — Lear, Honda, Volvo, Meritor, Toyota MFG, Daimler all active. 29/29 = 100% (Jtekt null is duplicate). +P4-7211 Chassis Side Fairing $150K BC. +CH22245 Trays $20K (OE Wheelworks). Accuride $3.035M advanced to Quote. SR200608 advanced to Prototype. Multiple Nov 30 closes. Pipeline $25.0M with 50 opps.","action":"SR200608 Fuel Tank $567K Prototype due Nov 30 — advance to Quote. PCS Tesla due Nov 27. Honda 30M Pilot opps and Magna MG2 all due Nov 30 this week."}
 ];
 export const CHANGES = [
   ["All Reps","Report Date","Nov 16, 2026","November 23, 2026","All 166 opps rebuilt live from Salesforce — all 8 reps exact match","pos"],
   ["Jake Heinecke","TJXX DC6 Tall Lip","$4.9M RFI","$4.9M Quote","Stage advanced to Quote — due Nov 27","pos"],
-  ["Kent Buckingham","JLG","Not in target list","New target account (engaged Nov 19)","JLG added to Kent accounts","pos"],
-  ["Kent Buckingham","IBC Black Set - Greif","$60K QEC","REMOVED","Closed — removed from SF","pos"],
-  ["Kent Buckingham","Nordstrom close date","Nov 13","Nov 30","Close date extended","neg"],
-  ["Mariano Lobos","CBB RACKS","$2.86M Design","REMOVED","Removed from pipeline — confirm won/lost","neg"],
-  ["Mariano Lobos","Spheros HVAC Covers & Plenums","Not in pipeline","$300K Business Case","New opp — SPHEROS NORTH AMERICA (new account)","pos"],
+  ["Kent Buckingham","JLG","Not in target list","New target account (engaged Nov 19)","JLG added","pos"],
+  ["Kent Buckingham","IBC Black Set - Greif","$60K QEC","REMOVED","Closed","pos"],
+  ["Mariano Lobos","CBB RACKS","$2.86M Design","REMOVED","Removed — confirm won/lost","neg"],
+  ["Mariano Lobos","Spheros HVAC Covers & Plenums","Not in pipeline","$300K Business Case","New opp — SPHEROS NORTH AMERICA","pos"],
   ["Matt Olsen","PCS Tesla Tray (reorder 2)","$156K Quote","$677K Quote","Amount jumped significantly","pos"],
   ["Matt Olsen","Oshkosh Battery Pack","$1.955M Concept","$1.503M Concept","Amount reduced","neg"],
-  ["Matt Olsen","Rivian R2 Brake Caliper Tray Redesign","$47.9K Production Tool","REMOVED","Removed from SF","pos"],
-  ["Matt Olsen","Assy Sleeve Pack Bento MPKXL","$0 RFI","REMOVED","Removed from SF","pos"],
+  ["Matt Olsen","Rivian R2 Brake Caliper Tray Redesign","$47.9K Production Tool","REMOVED","Removed","pos"],
+  ["Matt Olsen","Assy Sleeve Pack Bento MPKXL","$0 RFI","REMOVED","Removed","pos"],
   ["Rebecca Krueger","P4-7211 Chassis Side Fairing Rack","Not in pipeline","$150K Business Case","New PackIQ opp","pos"],
-  ["Rebecca Krueger","CH22245 Trays & CH30 Pallets","Not in pipeline","$20K RFI","New opp — OE Wheelworks (new account)","pos"],
-  ["Rebecca Krueger","Accuride CH Wheel Pallets","$3.035M QEC","$3.035M Quote","Stage advanced to Quote","pos"],
-  ["Rebecca Krueger","SR200608 Fuel Tank Rack","$567K Business Case","$567K Prototype","Stage advanced to Prototype","pos"],
-  ["Vonn McQuiston","Premier PV 4845 Panel & Harness Enclosure","Not in pipeline","$500K Business Case","New opp — Premier PV (new account)","pos"],
-  ["Vonn McQuiston","Opti-Pack BP4848W SP4","$50K Quote","REMOVED","Removed from SF","pos"],
-  ["Vonn McQuiston","BP 48x96","$64K Quote","REMOVED","Removed from SF","pos"],
-  ["Vonn McQuiston","Steel Replacement Bottoms","$20K Quote","REMOVED","Removed from SF","pos"]
+  ["Rebecca Krueger","CH22245 Trays & CH30 Pallets","Not in pipeline","$20K RFI","New — OE Wheelworks","pos"],
+  ["Rebecca Krueger","Accuride CH Wheel Pallets","$3.035M QEC","$3.035M Quote","Stage advanced","pos"],
+  ["Rebecca Krueger","SR200608 Fuel Tank Rack","$567K Business Case","$567K Prototype","Stage advanced","pos"],
+  ["Vonn McQuiston","Premier PV 4845 Panel & Harness","Not in pipeline","$500K Business Case","New — Premier PV","pos"],
+  ["Vonn McQuiston","Opti-Pack BP4848W SP4","$50K Quote","REMOVED","Removed","pos"],
+  ["Vonn McQuiston","BP 48x96","$64K Quote","REMOVED","Removed","pos"],
+  ["Vonn McQuiston","Steel Replacement Bottoms","$20K Quote","REMOVED","Removed","pos"]
 ]
 export const TOP_ACCOUNTS = {};
