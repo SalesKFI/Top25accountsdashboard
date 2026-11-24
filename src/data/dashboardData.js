@@ -42,7 +42,81 @@ export const REP_DATA = {
       "10": 88,
       "11": 45
     },
-    "never_list": []
+    "never_list": [],
+    "recent_acts": [
+      {
+        "date": "2026-11-23",
+        "subject": "Activity logged",
+        "account": "Daimler Purchasing",
+        "type": "Task"
+      },
+      {
+        "date": "2026-11-23",
+        "subject": "Activity logged",
+        "account": "Lear Corporation",
+        "type": "Task"
+      },
+      {
+        "date": "2026-11-23",
+        "subject": "Activity logged",
+        "account": "Honda Development and Manufacturing",
+        "type": "Task"
+      },
+      {
+        "date": "2026-11-23",
+        "subject": "Activity logged",
+        "account": "Meritor",
+        "type": "Task"
+      },
+      {
+        "date": "2026-11-23",
+        "subject": "Activity logged",
+        "account": "Volvo Car USA",
+        "type": "Task"
+      },
+      {
+        "date": "2026-11-23",
+        "subject": "Activity logged",
+        "account": "Toyota Motor Manufacturing Kentucky",
+        "type": "Task"
+      },
+      {
+        "date": "2026-11-20",
+        "subject": "Activity logged",
+        "account": "Clarios, LLC",
+        "type": "Task"
+      },
+      {
+        "date": "2026-11-18",
+        "subject": "Activity logged",
+        "account": "Cummins Inc.",
+        "type": "Task"
+      },
+      {
+        "date": "2026-11-16",
+        "subject": "Activity logged",
+        "account": "PackIQ - P3",
+        "type": "Task"
+      },
+      {
+        "date": "2026-11-16",
+        "subject": "Activity logged",
+        "account": "Flex-N-Gate",
+        "type": "Task"
+      },
+      {
+        "date": "2026-11-11",
+        "subject": "Activity logged",
+        "account": "Fixx Energy, LLC (AESC)",
+        "type": "Task"
+      },
+      {
+        "date": "2026-11-11",
+        "subject": "Activity logged",
+        "account": "Yanfeng International",
+        "type": "Task"
+      }
+    ]
   },
   "Matt Olsen": {
     "n_acts": 1631,
@@ -71,6 +145,80 @@ export const REP_DATA = {
     },
     "never_list": [
       "Connor Metal Stamping de M\u00e9xico"
+    ],
+    "recent_acts": [
+      {
+        "date": "2026-11-23",
+        "subject": "Call - Voicemail",
+        "account": "RIVIAN P3",
+        "type": "Call"
+      },
+      {
+        "date": "2026-11-19",
+        "subject": "Call - Connected",
+        "account": "Redwood Materials",
+        "type": "Call"
+      },
+      {
+        "date": "2026-11-19",
+        "subject": "Call - Connected",
+        "account": "TESLA",
+        "type": "Call"
+      },
+      {
+        "date": "2026-11-19",
+        "subject": "Call - Voicemail",
+        "account": "RIVIAN P3",
+        "type": "Call"
+      },
+      {
+        "date": "2026-11-19",
+        "subject": "Call - Connected",
+        "account": "RIVIAN P3",
+        "type": "Call"
+      },
+      {
+        "date": "2026-11-16",
+        "subject": "Call",
+        "account": "TESLA",
+        "type": "Call"
+      },
+      {
+        "date": "2026-11-11",
+        "subject": "Call - Voicemail",
+        "account": "TESLA",
+        "type": "Call"
+      },
+      {
+        "date": "2026-11-10",
+        "subject": "Call - Connected",
+        "account": "Hiho Wheel Mexico - SUB 31",
+        "type": "Call"
+      },
+      {
+        "date": "2026-11-03",
+        "subject": "Call - Connected",
+        "account": "Moment Energy",
+        "type": "Call"
+      },
+      {
+        "date": "2026-11-03",
+        "subject": "Call - Connected",
+        "account": "RIVIAN P3",
+        "type": "Call"
+      },
+      {
+        "date": "2026-10-29",
+        "subject": "Call - Connected",
+        "account": "TESLA",
+        "type": "Call"
+      },
+      {
+        "date": "2026-10-22",
+        "subject": "Call - Connected",
+        "account": "Redwood Materials",
+        "type": "Call"
+      }
     ]
   },
   "Eric Cin": {
@@ -108,6 +256,26 @@ export const REP_DATA = {
       "Nobile Brothers Truck Accessories",
       "Toyota Motor Sales/Napld",
       "Utilimaster Services, LLC"
+    ],
+    "recent_acts": [
+      {
+        "date": "2026-11-23",
+        "subject": "Activity logged",
+        "account": "AutoPort",
+        "type": "Task"
+      },
+      {
+        "date": "2026-11-20",
+        "subject": "Activity logged",
+        "account": "Ford Customer Service Division - FCSD",
+        "type": "Task"
+      },
+      {
+        "date": "2026-11-16",
+        "subject": "Activity logged",
+        "account": "Nissan Motor Corporation P5",
+        "type": "Task"
+      }
     ]
   },
   "Kent Buckingham": {
@@ -135,7 +303,81 @@ export const REP_DATA = {
       "10": 18,
       "11": 8
     },
-    "never_list": []
+    "never_list": [],
+    "recent_acts": [
+      {
+        "date": "2026-11-19",
+        "subject": "In-Person Meeting",
+        "account": "JLG",
+        "type": "Call"
+      },
+      {
+        "date": "2026-11-19",
+        "subject": "In-Person Meeting",
+        "account": "Graham Packaging Co",
+        "type": "Call"
+      },
+      {
+        "date": "2026-11-19",
+        "subject": "In-Person Meeting",
+        "account": "Packaging Corporation of America",
+        "type": "Call"
+      },
+      {
+        "date": "2026-11-19",
+        "subject": "In-Person Meeting",
+        "account": "Volvo Construction Equipment",
+        "type": "Call"
+      },
+      {
+        "date": "2026-11-12",
+        "subject": "Call",
+        "account": "Crown Packaging",
+        "type": "Call"
+      },
+      {
+        "date": "2026-11-12",
+        "subject": "In-Person Meeting",
+        "account": "Packaging Corp of America",
+        "type": "Call"
+      },
+      {
+        "date": "2026-11-12",
+        "subject": "Call",
+        "account": "Graham Packaging Co",
+        "type": "Call"
+      },
+      {
+        "date": "2026-11-09",
+        "subject": "Call",
+        "account": "Berlin Packaging",
+        "type": "Call"
+      },
+      {
+        "date": "2026-11-06",
+        "subject": "In-Person Meeting",
+        "account": "Packaging Corporation of America",
+        "type": "Call"
+      },
+      {
+        "date": "2026-11-06",
+        "subject": "In-Person Meeting",
+        "account": "The Nelson Company",
+        "type": "Call"
+      },
+      {
+        "date": "2026-11-06",
+        "subject": "Call",
+        "account": "Veritiv - Wi",
+        "type": "Call"
+      },
+      {
+        "date": "2026-11-02",
+        "subject": "Virtual Meeting",
+        "account": "Ponderosa Packaging Corp",
+        "type": "Call"
+      }
+    ]
   },
   "Vonn McQuiston": {
     "n_acts": 9730,
@@ -165,6 +407,80 @@ export const REP_DATA = {
     "never_list": [
       "Mustang Extreme Environmental Services",
       "Waste Connections-Iowa Park, TX"
+    ],
+    "recent_acts": [
+      {
+        "date": "2026-11-10",
+        "subject": "Call",
+        "account": "American Woodmark Corp",
+        "type": "Call"
+      },
+      {
+        "date": "2026-11-09",
+        "subject": "Call",
+        "account": "Rehrig Pacific Company",
+        "type": "Call"
+      },
+      {
+        "date": "2026-11-09",
+        "subject": "Call",
+        "account": "Environmental Metal Works",
+        "type": "Call"
+      },
+      {
+        "date": "2026-11-09",
+        "subject": "Call",
+        "account": "Westlake",
+        "type": "Call"
+      },
+      {
+        "date": "2026-11-09",
+        "subject": "Call",
+        "account": "Ace Hardware Corporation",
+        "type": "Call"
+      },
+      {
+        "date": "2026-11-09",
+        "subject": "Call",
+        "account": "Sunbelt Rentals - Chicago",
+        "type": "Call"
+      },
+      {
+        "date": "2026-11-09",
+        "subject": "Call",
+        "account": "General Mills",
+        "type": "Call"
+      },
+      {
+        "date": "2026-11-09",
+        "subject": "Call",
+        "account": "Burns and McDonnell",
+        "type": "Call"
+      },
+      {
+        "date": "2026-11-03",
+        "subject": "Call",
+        "account": "Environmental Metal Works",
+        "type": "Call"
+      },
+      {
+        "date": "2026-11-03",
+        "subject": "Call",
+        "account": "United Rentals",
+        "type": "Call"
+      },
+      {
+        "date": "2026-11-03",
+        "subject": "Call",
+        "account": "Sanmina Corporation",
+        "type": "Call"
+      },
+      {
+        "date": "2026-11-03",
+        "subject": "Call",
+        "account": "Ace Hardware Corporation",
+        "type": "Call"
+      }
     ]
   },
   "Mariano Lobos": {
@@ -192,7 +508,81 @@ export const REP_DATA = {
       "10": 3200,
       "11": 1200
     },
-    "never_list": []
+    "never_list": [],
+    "recent_acts": [
+      {
+        "date": "2026-11-23",
+        "subject": "Email: RE: AVANCE DE PROYECTO CHAROLA FORM",
+        "account": "FORM",
+        "type": "Email"
+      },
+      {
+        "date": "2026-11-23",
+        "subject": "Email: FACTURA HIPERPACK FH 563",
+        "account": "HIPERPACK SA DE CV",
+        "type": "Email"
+      },
+      {
+        "date": "2026-11-23",
+        "subject": "Email: RE: IndustrialPallets PO07019",
+        "account": "SODEQUIM SA DE CV",
+        "type": "Email"
+      },
+      {
+        "date": "2026-11-23",
+        "subject": "Email: RE: Autoliv project update",
+        "account": "Autoliv Steering Wheels Mexico",
+        "type": "Email"
+      },
+      {
+        "date": "2026-11-23",
+        "subject": "Activity logged",
+        "account": "FAURECIA SISTEMAS AUTOMOTRICES",
+        "type": "Task"
+      },
+      {
+        "date": "2026-11-23",
+        "subject": "Activity logged",
+        "account": "Forvia Automotive Seating MX",
+        "type": "Task"
+      },
+      {
+        "date": "2026-11-23",
+        "subject": "Activity logged",
+        "account": "FORM",
+        "type": "Task"
+      },
+      {
+        "date": "2026-11-18",
+        "subject": "Activity logged",
+        "account": "GRUPO BIMBO",
+        "type": "Task"
+      },
+      {
+        "date": "2026-11-24",
+        "subject": "Activity logged",
+        "account": "DeRemate.com de Mexico",
+        "type": "Task"
+      },
+      {
+        "date": "2026-10-27",
+        "subject": "Activity logged",
+        "account": "Grupo Lala Mexico",
+        "type": "Task"
+      },
+      {
+        "date": "2026-10-23",
+        "subject": "Activity logged",
+        "account": "Heineken Mexico",
+        "type": "Task"
+      },
+      {
+        "date": "2026-10-23",
+        "subject": "Activity logged",
+        "account": "Gruma",
+        "type": "Task"
+      }
+    ]
   },
   "Jake Heinecke": {
     "n_acts": 4749,
@@ -222,6 +612,56 @@ export const REP_DATA = {
     "never_list": [
       "Goodwill Colorado",
       "Petco Animal Supplies"
+    ],
+    "recent_acts": [
+      {
+        "date": "2026-11-23",
+        "subject": "Email: Niagara Pallet Review",
+        "account": "Niagara Bottling (HQ)",
+        "type": "Email"
+      },
+      {
+        "date": "2026-11-23",
+        "subject": "Email: Aldi TRDA Update",
+        "account": "Aldi - HQ",
+        "type": "Email"
+      },
+      {
+        "date": "2026-11-23",
+        "subject": "Email: CHEP Spec Pallet",
+        "account": "CHEP (HQ - Orlando, FL)",
+        "type": "Email"
+      },
+      {
+        "date": "2026-09-28",
+        "subject": "Call",
+        "account": "TJX - Canada",
+        "type": "Call"
+      },
+      {
+        "date": "2026-09-28",
+        "subject": "Call",
+        "account": "Anheuser-Busch InBev",
+        "type": "Call"
+      },
+      {
+        "date": "2026-09-21",
+        "subject": "Call",
+        "account": "TJX Companies",
+        "type": "Call"
+      },
+      {
+        "date": "2026-09-18",
+        "subject": "Call",
+        "account": "Anheuser-Busch InBev",
+        "type": "Call"
+      },
+      {
+        "date": "2026-09-18",
+        "subject": "Call",
+        "account": "Crown Cork & Seal",
+        "type": "Call"
+      }
     ]
   },
   "Jack Subel": {
@@ -251,6 +691,44 @@ export const REP_DATA = {
     },
     "never_list": [
       "Kubota Mfg. Of America Corp."
+    ],
+    "recent_acts": [
+      {
+        "date": "2026-11-24",
+        "subject": "Activity logged",
+        "account": "Loose Plastics, Inc.",
+        "type": "Task"
+      },
+      {
+        "date": "2026-11-23",
+        "subject": "Activity logged",
+        "account": "Cameron International Corporation - SLB Group",
+        "type": "Task"
+      },
+      {
+        "date": "2026-11-20",
+        "subject": "Activity logged",
+        "account": "Satellite Industries Inc. P5",
+        "type": "Task"
+      },
+      {
+        "date": "2026-11-02",
+        "subject": "Activity logged",
+        "account": "John Deere",
+        "type": "Task"
+      },
+      {
+        "date": "2026-09-22",
+        "subject": "Activity logged",
+        "account": "Daimler Trucks North America LLC",
+        "type": "Task"
+      },
+      {
+        "date": "2026-09-11",
+        "subject": "Activity logged",
+        "account": "Kawasaki Motors MFG Corp USA P5",
+        "type": "Task"
+      }
     ]
   }
 };
@@ -3189,3 +3667,418 @@ export const CHANGES = [
   ["Vonn McQuiston","Steel Replacement Bottoms","$20K Quote","REMOVED","Removed","pos"]
 ]
 export const TOP_ACCOUNTS = {};
+
+export const RECENT_ACTIVITIES = {
+  "Matt Olsen": [
+    {
+      "date": "2026-11-23",
+      "subject": "Call - Voicemail",
+      "account": "RIVIAN P3",
+      "type": "Call"
+    },
+    {
+      "date": "2026-11-19",
+      "subject": "Call - Connected",
+      "account": "Redwood Materials",
+      "type": "Call"
+    },
+    {
+      "date": "2026-11-19",
+      "subject": "Call - Connected",
+      "account": "TESLA",
+      "type": "Call"
+    },
+    {
+      "date": "2026-11-19",
+      "subject": "Call - Voicemail",
+      "account": "TESLA",
+      "type": "Call"
+    },
+    {
+      "date": "2026-11-19",
+      "subject": "Call - Voicemail",
+      "account": "RIVIAN P3",
+      "type": "Call"
+    },
+    {
+      "date": "2026-11-19",
+      "subject": "Call - Connected",
+      "account": "Redwood Materials",
+      "type": "Call"
+    },
+    {
+      "date": "2026-11-19",
+      "subject": "Call - Connected",
+      "account": "RIVIAN P3",
+      "type": "Call"
+    },
+    {
+      "date": "2026-11-16",
+      "subject": "Call",
+      "account": "TESLA",
+      "type": "Call"
+    },
+    {
+      "date": "2026-11-11",
+      "subject": "Call - Voicemail",
+      "account": "TESLA",
+      "type": "Call"
+    },
+    {
+      "date": "2026-11-10",
+      "subject": "Call - Connected",
+      "account": "Hiho Wheel Mexico - SUB 31",
+      "type": "Call"
+    },
+    {
+      "date": "2026-11-03",
+      "subject": "Call - Connected",
+      "account": "Moment Energy",
+      "type": "Call"
+    },
+    {
+      "date": "2026-11-03",
+      "subject": "Call - Connected",
+      "account": "RIVIAN P3",
+      "type": "Call"
+    }
+  ],
+  "Kent Buckingham": [
+    {
+      "date": "2026-11-19",
+      "subject": "In-Person Meeting",
+      "account": "JLG",
+      "type": "Call"
+    },
+    {
+      "date": "2026-11-19",
+      "subject": "In-Person Meeting",
+      "account": "Etemco",
+      "type": "Call"
+    },
+    {
+      "date": "2026-11-19",
+      "subject": "In-Person Meeting",
+      "account": "J.L. Clark",
+      "type": "Call"
+    },
+    {
+      "date": "2026-11-19",
+      "subject": "In-Person Meeting",
+      "account": "Packaging Corporation of America",
+      "type": "Call"
+    },
+    {
+      "date": "2026-11-19",
+      "subject": "In-Person Meeting",
+      "account": "Graham Packaging Co",
+      "type": "Call"
+    },
+    {
+      "date": "2026-11-19",
+      "subject": "In-Person Meeting",
+      "account": "Volvo Construction Equipment",
+      "type": "Call"
+    },
+    {
+      "date": "2026-11-12",
+      "subject": "Call",
+      "account": "Crown Packaging",
+      "type": "Call"
+    },
+    {
+      "date": "2026-11-12",
+      "subject": "Call",
+      "account": "Etemco",
+      "type": "Call"
+    },
+    {
+      "date": "2026-11-12",
+      "subject": "In-Person Meeting",
+      "account": "Packaging Corp of America",
+      "type": "Call"
+    },
+    {
+      "date": "2026-11-12",
+      "subject": "Call",
+      "account": "Graham Packaging Co",
+      "type": "Call"
+    },
+    {
+      "date": "2026-11-09",
+      "subject": "Call",
+      "account": "Berlin Packaging",
+      "type": "Call"
+    },
+    {
+      "date": "2026-11-06",
+      "subject": "In-Person Meeting",
+      "account": "Packaging Corporation of America",
+      "type": "Call"
+    }
+  ],
+  "Vonn McQuiston": [
+    {
+      "date": "2026-11-10",
+      "subject": "Call",
+      "account": "American Woodmark Corp",
+      "type": "Call"
+    },
+    {
+      "date": "2026-11-09",
+      "subject": "Call",
+      "account": "Rehrig Pacific Company",
+      "type": "Call"
+    },
+    {
+      "date": "2026-11-09",
+      "subject": "Call",
+      "account": "Environmental Metal Works",
+      "type": "Call"
+    },
+    {
+      "date": "2026-11-09",
+      "subject": "Call",
+      "account": "Westlake",
+      "type": "Call"
+    },
+    {
+      "date": "2026-11-09",
+      "subject": "Call",
+      "account": "Ace Hardware Corporation",
+      "type": "Call"
+    },
+    {
+      "date": "2026-11-09",
+      "subject": "Call",
+      "account": "Sunbelt Rentals - Chicago",
+      "type": "Call"
+    },
+    {
+      "date": "2026-11-09",
+      "subject": "Call",
+      "account": "General Mills",
+      "type": "Call"
+    },
+    {
+      "date": "2026-11-09",
+      "subject": "Call",
+      "account": "Burns and McDonnell",
+      "type": "Call"
+    },
+    {
+      "date": "2026-11-03",
+      "subject": "Call",
+      "account": "Environmental Metal Works",
+      "type": "Call"
+    },
+    {
+      "date": "2026-11-03",
+      "subject": "Call",
+      "account": "United Rentals",
+      "type": "Call"
+    },
+    {
+      "date": "2026-11-03",
+      "subject": "Call",
+      "account": "Sanmina Corporation",
+      "type": "Call"
+    },
+    {
+      "date": "2026-11-03",
+      "subject": "Call",
+      "account": "Rehrig Pacific Company",
+      "type": "Call"
+    }
+  ],
+  "Jake Heinecke": [
+    {
+      "date": "2026-11-23",
+      "subject": "Email: Niagara Pallet Review",
+      "account": "Niagara Bottling (HQ - Diamond Bar, CA)",
+      "type": "Email"
+    },
+    {
+      "date": "2026-11-23",
+      "subject": "Email: Aldi TRDA Update - Jefferson",
+      "account": "Aldi - HQ",
+      "type": "Email"
+    },
+    {
+      "date": "2026-11-23",
+      "subject": "Email: CHEP Spec Pallet",
+      "account": "CHEP (HQ - Orlando, FL)",
+      "type": "Email"
+    },
+    {
+      "date": "2026-09-28",
+      "subject": "Call",
+      "account": "TJX - Canada",
+      "type": "Call"
+    },
+    {
+      "date": "2026-09-28",
+      "subject": "Call",
+      "account": "Anheuser-Busch InBev",
+      "type": "Call"
+    },
+    {
+      "date": "2026-09-21",
+      "subject": "Call",
+      "account": "TJX Companies",
+      "type": "Call"
+    },
+    {
+      "date": "2026-09-18",
+      "subject": "Call",
+      "account": "Anheuser-Busch InBev",
+      "type": "Call"
+    },
+    {
+      "date": "2026-09-18",
+      "subject": "Call",
+      "account": "Crown Cork & Seal",
+      "type": "Call"
+    },
+    {
+      "date": "2026-09-18",
+      "subject": "Call",
+      "account": "Crown Cork & Seal",
+      "type": "Call"
+    }
+  ],
+  "Rebecca Krueger": [
+    {
+      "date": "2026-11-23",
+      "subject": "Activity logged",
+      "account": "Daimler Purchasing",
+      "type": "Task"
+    },
+    {
+      "date": "2026-11-23",
+      "subject": "Activity logged",
+      "account": "Lear Corporation",
+      "type": "Task"
+    },
+    {
+      "date": "2026-11-23",
+      "subject": "Activity logged",
+      "account": "Honda Development and Manufacturing",
+      "type": "Task"
+    },
+    {
+      "date": "2026-11-23",
+      "subject": "Activity logged",
+      "account": "Meritor",
+      "type": "Task"
+    },
+    {
+      "date": "2026-11-23",
+      "subject": "Activity logged",
+      "account": "Volvo Car USA",
+      "type": "Task"
+    },
+    {
+      "date": "2026-11-23",
+      "subject": "Activity logged",
+      "account": "Toyota Motor Manufacturing Kentucky",
+      "type": "Task"
+    }
+  ],
+  "Jack Subel": [
+    {
+      "date": "2026-11-24",
+      "subject": "Activity logged",
+      "account": "Loose Plastics, Inc.",
+      "type": "Task"
+    },
+    {
+      "date": "2026-11-23",
+      "subject": "Activity logged",
+      "account": "Cameron International Corporation - SLB Group",
+      "type": "Task"
+    },
+    {
+      "date": "2026-11-20",
+      "subject": "Activity logged",
+      "account": "Satellite Industries Inc. P5",
+      "type": "Task"
+    },
+    {
+      "date": "2026-11-02",
+      "subject": "Activity logged",
+      "account": "John Deere",
+      "type": "Task"
+    }
+  ],
+  "Mariano Lobos": [
+    {
+      "date": "2026-11-23",
+      "subject": "Email: RE: AVANCE DE PROYECTO CHAROLA FORM",
+      "account": "FORM",
+      "type": "Email"
+    },
+    {
+      "date": "2026-11-23",
+      "subject": "Email: FACTURA HIPERPACK FH 563",
+      "account": "HIPERPACK SA DE CV",
+      "type": "Email"
+    },
+    {
+      "date": "2026-11-23",
+      "subject": "Email: RE: IndustrialPallets PO07019",
+      "account": "SODEQUIM SA DE CV",
+      "type": "Email"
+    },
+    {
+      "date": "2026-11-23",
+      "subject": "Email: RE: Autoliv project update",
+      "account": "Autoliv Steering Wheels Mexico",
+      "type": "Email"
+    },
+    {
+      "date": "2026-11-18",
+      "subject": "Activity logged",
+      "account": "GRUPO BIMBO",
+      "type": "Task"
+    },
+    {
+      "date": "2026-11-23",
+      "subject": "Activity logged",
+      "account": "FAURECIA SISTEMAS AUTOMOTRICES",
+      "type": "Task"
+    },
+    {
+      "date": "2026-11-23",
+      "subject": "Activity logged",
+      "account": "Forvia Automotive Seating MX",
+      "type": "Task"
+    },
+    {
+      "date": "2026-11-23",
+      "subject": "Activity logged",
+      "account": "FORM",
+      "type": "Task"
+    }
+  ],
+  "Eric Cin": [
+    {
+      "date": "2026-11-23",
+      "subject": "Activity logged",
+      "account": "AutoPort",
+      "type": "Task"
+    },
+    {
+      "date": "2026-11-20",
+      "subject": "Activity logged",
+      "account": "Ford Customer Service Division - FCSD",
+      "type": "Task"
+    },
+    {
+      "date": "2026-11-16",
+      "subject": "Activity logged",
+      "account": "Nissan Motor Corporation P5",
+      "type": "Task"
+    }
+  ]
+}
