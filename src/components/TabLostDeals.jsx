@@ -131,17 +131,6 @@ const LOST_2026 = [
   {month:'Sep',rep:'Mariano Lobos', account:'DeRemate Mexico',         name:'BP 4048 Orange Stripe 2nd Line',             amount:1419600, lr:'Price',                         fb:'Customer consolidated to single supplier at lower rate.'},
   {month:'Sep',rep:'Mariano Lobos', account:'Mercado Libre Argentina', name:'BIG PACKS 4048 Argentina',                   amount:1077440, lr:'Price',                         fb:'Local Argentine supplier won on landed cost.'},
   {month:'Sep',rep:'Kent Buckingham',account:'PackIQ - P3',            name:'SR200328 Front Fascia MSP Mold WIP',         amount:300000,  lr:'Design Change',                 fb:'Customer redesigned part.'},
-  // Oct
-  {month:'Oct',rep:'Eric Cin',      account:'FCA USA',                 name:'RT Stellantis R4P Rampage Bed Protection',   amount:10000000,lr:'Customer Delayed',              fb:'Stellantis paused all accessory programs for Q4 budget review.'},
-  {month:'Oct',rep:'Matt Olsen',    account:'RIVIAN P3',               name:'Rivian 2nd Shift Racks (remaining)',         amount:800000,  lr:'Customer Delayed',              fb:'R2 volume ramp delayed to Q2 2027.'},
-  {month:'Oct',rep:'Kent Buckingham',account:'PackIQ - P3',            name:'AG Facebar C256667A-01',                     amount:100000,  lr:'Design Change',                 fb:'Customer eliminated this part from new model.'},
-  {month:'Oct',rep:'Mariano Lobos', account:'Marelli Mexico',          name:'rfq 25575 P33C Steel Racks partial',         amount:2122410, lr:'Price',                         fb:'Customer awarded partial — reduced scope to $1.04M.'},
-  // Nov
-  {month:'Nov',rep:'Mariano Lobos', account:'FORM',                    name:'CBB RACKS',                                  amount:2860624, lr:'No KFI Activity',               fb:'Removed from pipeline Nov 23 — confirm closed won or lost.'},
-  {month:'Nov',rep:'Matt Olsen',    account:'RIVIAN P3',               name:'Rivian R2 Brake Caliper Tray Redesign',      amount:47974,   lr:'Customer Non-Responsive',       fb:'No follow-up activity — customer moved to alternate supplier.'},
-  {month:'Nov',rep:'Vonn McQuiston',account:'American Woodmark',       name:'Opti-Pack BP4848W SP4 WHITE-NDH',            amount:50000,   lr:'Price',                         fb:'Customer chose lower-cost corrugated option.'},
-  {month:'Nov',rep:'Vonn McQuiston',account:'American Woodmark',       name:'BP 48x96',                                   amount:64050,   lr:'Customer Non-Responsive',       fb:'No response after follow-up.'},
-  {month:'Nov',rep:'Vonn McQuiston',account:'Texas Disposal Systems',  name:'Steel Replacement Bottoms',                  amount:20000,   lr:'Price',                         fb:'Customer went with lower-cost local fabricator.'},
 
 ]
 
@@ -183,6 +172,17 @@ const TABS = [
   { id:'accounts',  label:'Top Accounts'   },
   { id:'patterns',  label:'Win/Loss Intel' },
   { id:'deals',     label:'All Deals'      },
+  // Oct
+  {month:'Oct',rep:'Eric Cin',      account:'FCA USA',                 name:'RT Stellantis R4P Rampage Bed Protection',   amount:10000000,lr:'Customer Delayed',              fb:'Stellantis paused all accessory programs for Q4 budget review.'},
+  {month:'Oct',rep:'Matt Olsen',    account:'RIVIAN P3',               name:'Rivian 2nd Shift Racks (remaining)',         amount:800000,  lr:'Customer Delayed',              fb:'R2 volume ramp delayed to Q2 2027.'},
+  {month:'Oct',rep:'Kent Buckingham',account:'PackIQ - P3',            name:'AG Facebar C256667A-01',                     amount:100000,  lr:'Design Change',                 fb:'Customer eliminated this part from new model.'},
+  {month:'Oct',rep:'Mariano Lobos', account:'Marelli Mexico',          name:'rfq 25575 P33C Steel Racks partial',         amount:2122410, lr:'Price',                         fb:'Customer awarded partial reduced scope to 1.04M.'},
+  // Nov
+  {month:'Nov',rep:'Mariano Lobos', account:'FORM',                    name:'CBB RACKS',                                  amount:2860624, lr:'No KFI Activity',               fb:'Removed from pipeline Nov 23 confirm closed won or lost.'},
+  {month:'Nov',rep:'Matt Olsen',    account:'RIVIAN P3',               name:'Rivian R2 Brake Caliper Tray Redesign',      amount:47974,   lr:'Customer Non-Responsive',       fb:'No follow-up activity customer moved to alternate supplier.'},
+  {month:'Nov',rep:'Vonn McQuiston',account:'American Woodmark',       name:'Opti-Pack BP4848W SP4 WHITE-NDH',            amount:50000,   lr:'Price',                         fb:'Customer chose lower-cost corrugated option.'},
+  {month:'Nov',rep:'Vonn McQuiston',account:'American Woodmark',       name:'BP 48x96',                                   amount:64050,   lr:'Customer Non-Responsive',       fb:'No response after follow-up.'},
+  {month:'Nov',rep:'Vonn McQuiston',account:'Texas Disposal Systems',  name:'Steel Replacement Bottoms',                  amount:20000,   lr:'Price',                         fb:'Customer went with lower-cost local fabricator.'},
 ]
 
 export default function TabLostDeals() {
