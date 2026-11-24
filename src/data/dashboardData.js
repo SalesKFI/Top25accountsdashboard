@@ -2307,806 +2307,853 @@ export const TOP5_ACCOUNTS = {
 export const TOP25_STATUS = {
   "Eric Cin": [
     {
-      "name": "Enterprise - College Park",
-      "engaged": false
-    },
-    {
-      "name": "Utilimaster Services, LLC",
-      "engaged": false
-    },
-    {
-      "name": "Nobile Brothers Truck Accessories",
-      "engaged": false
-    },
-    {
-      "name": "Enterprise - Scott Depot, WV",
-      "engaged": false
-    },
-    {
-      "name": "Enterprise - Dallas Truck Ctr",
-      "engaged": false
-    },
-    {
       "name": "70998 - Roush Industries",
-      "engaged": false
-    },
-    {
-      "name": "Competition Specialties, Inc.",
-      "engaged": false
-    },
-    {
-      "name": "Enterprise - Sherwood",
-      "engaged": false
-    },
-    {
-      "name": "Toyota Motor Sales/Napld",
-      "engaged": false
+      "engaged": false,
+      "last_activity": null
     },
     {
       "name": "AutoPort",
-      "engaged": true
-    },
-    {
-      "name": "Ford Customer Service Division - FCSD",
-      "engaged": true
-    },
-    {
-      "name": "Tractor Supply",
-      "engaged": true
-    },
-    {
-      "name": "Commercial Van Solutions Llc",
-      "engaged": true
+      "engaged": true,
+      "last_activity": "2026-11-23"
     },
     {
       "name": "Avis Budget Group",
-      "engaged": true
+      "engaged": true,
+      "last_activity": "2026-08-08"
     },
     {
-      "name": "Hertz Global",
-      "engaged": true
+      "name": "Commercial Van Solutions Llc",
+      "engaged": true,
+      "last_activity": "2026-08-08"
     },
     {
-      "name": "Valley Van & Sport Utilities",
-      "engaged": true
-    },
-    {
-      "name": "Gold Touch Dealer Solutions",
-      "engaged": true
-    },
-    {
-      "name": "Scout Motors",
-      "engaged": true
+      "name": "Competition Specialties, Inc.",
+      "engaged": false,
+      "last_activity": null
     },
     {
       "name": "DFW Camper Corral",
-      "engaged": true
+      "engaged": true,
+      "last_activity": "2025-03-18"
+    },
+    {
+      "name": "Enterprise - College Park",
+      "engaged": false,
+      "last_activity": null
+    },
+    {
+      "name": "Enterprise - Dallas Truck Ctr",
+      "engaged": false,
+      "last_activity": null
+    },
+    {
+      "name": "Enterprise - Scott Depot, WV",
+      "engaged": false,
+      "last_activity": null
+    },
+    {
+      "name": "Enterprise - Sherwood",
+      "engaged": false,
+      "last_activity": null
+    },
+    {
+      "name": "Ford Customer Service Division - FCSD",
+      "engaged": true,
+      "last_activity": "2026-11-20"
+    },
+    {
+      "name": "Gold Touch Dealer Solutions",
+      "engaged": true,
+      "last_activity": "2025-11-10"
+    },
+    {
+      "name": "Hertz Global",
+      "engaged": true,
+      "last_activity": "2026-08-08"
     },
     {
       "name": "Ideal Automotive & Truck Accessories",
-      "engaged": true
-    },
-    {
-      "name": "Nissan Motor Corporation P5",
-      "engaged": true
-    },
-    {
-      "name": "Titan Truck Equipment",
-      "engaged": true
-    },
-    {
-      "name": "Nelson Truck Equipment Co Inc - Kent",
-      "engaged": true
+      "engaged": true,
+      "last_activity": "2024-11-12"
     },
     {
       "name": "Nelson Truck",
-      "engaged": true
+      "engaged": true,
+      "last_activity": "2022-06-07"
+    },
+    {
+      "name": "Nelson Truck Equipment Co Inc - Kent",
+      "engaged": true,
+      "last_activity": "2023-11-30"
+    },
+    {
+      "name": "Nissan Motor Corporation P5",
+      "engaged": true,
+      "last_activity": "2026-11-16"
+    },
+    {
+      "name": "Nobile Brothers Truck Accessories",
+      "engaged": false,
+      "last_activity": null
+    },
+    {
+      "name": "Scout Motors",
+      "engaged": true,
+      "last_activity": "2025-04-07"
+    },
+    {
+      "name": "Titan Truck Equipment",
+      "engaged": true,
+      "last_activity": "2023-12-14"
+    },
+    {
+      "name": "Toyota Motor Sales/Napld",
+      "engaged": false,
+      "last_activity": null
+    },
+    {
+      "name": "Tractor Supply",
+      "engaged": true,
+      "last_activity": "2026-10-26"
+    },
+    {
+      "name": "Utilimaster Services, LLC",
+      "engaged": false,
+      "last_activity": null
+    },
+    {
+      "name": "Valley Van & Sport Utilities",
+      "engaged": true,
+      "last_activity": "2026-06-29"
     }
   ],
   "Jack Subel": [
     {
       "name": "Cameron International Corporation - SLB Group",
-      "engaged": true
-    },
-    {
-      "name": "Satellite Industries Inc. P5",
-      "engaged": true
-    },
-    {
-      "name": "Loose Plastics, Inc.",
-      "engaged": true
-    },
-    {
-      "name": "Kawasaki Motors MFG Corp USA P5",
-      "engaged": true
-    },
-    {
-      "name": "John Deere",
-      "engaged": true
-    },
-    {
-      "name": "Kubota Mfg. Of America Corp.",
-      "engaged": true
-    },
-    {
-      "name": "Satellite Industries, Inc. A4",
-      "engaged": true
-    },
-    {
-      "name": "Navistar, Inc.",
-      "engaged": true
-    },
-    {
-      "name": "Paccar",
-      "engaged": true
+      "engaged": true,
+      "last_activity": "2026-11-23"
     },
     {
       "name": "Daimler Trucks North America LLC",
-      "engaged": true
+      "engaged": true,
+      "last_activity": "2026-09-22"
+    },
+    {
+      "name": "John Deere",
+      "engaged": true,
+      "last_activity": "2026-11-02"
+    },
+    {
+      "name": "Kawasaki Motors MFG Corp USA P5",
+      "engaged": true,
+      "last_activity": "2026-09-11"
+    },
+    {
+      "name": "Kubota Mfg. Of America Corp. (1)",
+      "engaged": false,
+      "last_activity": null
+    },
+    {
+      "name": "Kubota Mfg. Of America Corp. (2)",
+      "engaged": true,
+      "last_activity": "2026-10-21"
+    },
+    {
+      "name": "Loose Plastics, Inc.",
+      "engaged": true,
+      "last_activity": "2026-11-24"
+    },
+    {
+      "name": "Navistar, Inc.",
+      "engaged": true,
+      "last_activity": "2024-10-18"
+    },
+    {
+      "name": "Paccar",
+      "engaged": true,
+      "last_activity": "2024-08-06"
+    },
+    {
+      "name": "Satellite Industries Inc. P5",
+      "engaged": true,
+      "last_activity": "2026-11-20"
+    },
+    {
+      "name": "Satellite Industries, Inc. A4",
+      "engaged": true,
+      "last_activity": "2025-03-14"
     }
   ],
   "Jake Heinecke": [
     {
-      "name": "PepsiCo",
-      "engaged": true
-    },
-    {
-      "name": "TJX Companies",
-      "engaged": true
-    },
-    {
-      "name": "TJX - Canada",
-      "engaged": true
-    },
-    {
-      "name": "Kroger Corporate - HQ",
-      "engaged": true
-    },
-    {
-      "name": "General Mills",
-      "engaged": true
-    },
-    {
-      "name": "Aldi - HQ",
-      "engaged": true
-    },
-    {
-      "name": "World Class Distribution (Trader Joe's)",
-      "engaged": true
-    },
-    {
-      "name": "Walmart Dairy",
-      "engaged": true
+      "name": "Academy Sports + Outdoors",
+      "engaged": true,
+      "last_activity": "2025-02-17"
     },
     {
       "name": "Albertsons Companies HQ",
-      "engaged": true
+      "engaged": true,
+      "last_activity": "2026-08-13"
     },
     {
-      "name": "Tyson Foods (HQ - Springdale, AR)",
-      "engaged": true
-    },
-    {
-      "name": "Pepsico - Tropicana",
-      "engaged": true
-    },
-    {
-      "name": "Goodwill Colorado",
-      "engaged": false
-    },
-    {
-      "name": "Petco Animal Supplies",
-      "engaged": false
-    },
-    {
-      "name": "UNFI Corporate",
-      "engaged": true
-    },
-    {
-      "name": "CHEP (HQ - Orlando, FL)",
-      "engaged": true
-    },
-    {
-      "name": "General Mills - Buffalo, NY",
-      "engaged": true
-    },
-    {
-      "name": "Walmart",
-      "engaged": true
+      "name": "Aldi - HQ",
+      "engaged": true,
+      "last_activity": "2026-11-23"
     },
     {
       "name": "Amazon.com",
-      "engaged": true
-    },
-    {
-      "name": "C&S Wholesale Grocers - Topco",
-      "engaged": true
-    },
-    {
-      "name": "Academy Sports + Outdoors",
-      "engaged": true
-    },
-    {
-      "name": "JBS Worthington MN",
-      "engaged": true
-    },
-    {
-      "name": "Loblaw Companies",
-      "engaged": true
-    },
-    {
-      "name": "Cargill Inc",
-      "engaged": true
+      "engaged": true,
+      "last_activity": "2025-04-11"
     },
     {
       "name": "AWG - Kenosha, WI",
-      "engaged": true
+      "engaged": true,
+      "last_activity": "2023-05-08"
     },
     {
-      "name": "Tyson Foods (Council Bluffs, IA)",
-      "engaged": true
+      "name": "C&S Wholesale Grocers - Topco",
+      "engaged": true,
+      "last_activity": "2025-04-09"
     },
     {
-      "name": "Target HQ",
-      "engaged": true
+      "name": "Cargill Inc",
+      "engaged": true,
+      "last_activity": "2024-07-09"
+    },
+    {
+      "name": "CHEP (HQ - Orlando, FL)",
+      "engaged": true,
+      "last_activity": "2026-11-06"
+    },
+    {
+      "name": "General Mills",
+      "engaged": true,
+      "last_activity": "2026-11-09"
+    },
+    {
+      "name": "General Mills - Buffalo, NY",
+      "engaged": true,
+      "last_activity": "2025-05-15"
+    },
+    {
+      "name": "Goodwill Colorado",
+      "engaged": false,
+      "last_activity": null
+    },
+    {
+      "name": "Harris Teeter",
+      "engaged": true,
+      "last_activity": "2026-09-17"
+    },
+    {
+      "name": "JBS Worthington MN",
+      "engaged": true,
+      "last_activity": "2025-01-06"
+    },
+    {
+      "name": "Kroger - Salem, VA",
+      "engaged": true,
+      "last_activity": "2026-11-02"
+    },
+    {
+      "name": "Kroger Corporate - HQ",
+      "engaged": true,
+      "last_activity": "2026-08-24"
+    },
+    {
+      "name": "Kroger/Fred Meyer - Clackamas, OR",
+      "engaged": true,
+      "last_activity": "2023-11-17"
+    },
+    {
+      "name": "Loblaw Companies",
+      "engaged": true,
+      "last_activity": "2024-11-18"
     },
     {
       "name": "Niagara Bottling (HQ - Diamond Bar, CA)",
-      "engaged": true
+      "engaged": true,
+      "last_activity": "2026-11-23"
     },
     {
-      "name": "AB InBev",
-      "engaged": false
+      "name": "PepsiCo",
+      "engaged": true,
+      "last_activity": "2026-10-23"
     },
     {
-      "name": "Constellation Brands",
-      "engaged": false
+      "name": "Pepsico - Tropicana",
+      "engaged": true,
+      "last_activity": "2023-06-22"
     },
     {
-      "name": "Coca-Cola",
-      "engaged": false
+      "name": "Petco Animal Supplies",
+      "engaged": false,
+      "last_activity": null
     },
     {
-      "name": "Beam Suntory",
-      "engaged": false
+      "name": "Target HQ",
+      "engaged": true,
+      "last_activity": "2026-10-14"
     },
     {
-      "name": "BNSF",
-      "engaged": false
+      "name": "TJX - Canada",
+      "engaged": true,
+      "last_activity": "2026-11-02"
     },
     {
-      "name": "Publix",
-      "engaged": false
+      "name": "TJX Companies",
+      "engaged": true,
+      "last_activity": "2026-11-23"
     },
     {
-      "name": "Burlington",
-      "engaged": false
+      "name": "Tyson Foods (Council Bluffs, IA)",
+      "engaged": true,
+      "last_activity": "2023-02-27"
     },
     {
-      "name": "PetSmart",
-      "engaged": false
+      "name": "Tyson Foods (HQ - Springdale, AR)",
+      "engaged": true,
+      "last_activity": "2026-08-10"
     },
     {
-      "name": "DrinkPak",
-      "engaged": false
+      "name": "UNFI Corporate",
+      "engaged": true,
+      "last_activity": "2026-04-24"
     },
     {
-      "name": "Ball Corp",
-      "engaged": false
+      "name": "Walmart",
+      "engaged": true,
+      "last_activity": "2025-05-12"
     },
     {
-      "name": "Crown Packaging",
-      "engaged": false
+      "name": "Walmart Dairy",
+      "engaged": true,
+      "last_activity": "2026-09-08"
+    },
+    {
+      "name": "World Class Distribution (Trader Joe's)",
+      "engaged": true,
+      "last_activity": "2026-08-16"
     }
   ],
   "Kent Buckingham": [
     {
-      "name": "Veritiv Operating Co. (Unisource)",
-      "engaged": true
-    },
-    {
-      "name": "PackIQ - P3",
-      "engaged": true
-    },
-    {
-      "name": "Stephen Gould Corporation",
-      "engaged": true
-    },
-    {
-      "name": "AutoPort",
-      "engaged": true
-    },
-    {
-      "name": "Avis Budget Group",
-      "engaged": true
-    },
-    {
-      "name": "Commercial Van Solutions Llc",
-      "engaged": true
-    },
-    {
-      "name": "Hertz Global",
-      "engaged": true
-    },
-    {
-      "name": "Nobile Brothers Truck Accessories",
-      "engaged": true
-    },
-    {
-      "name": "DFW Camper Corral",
-      "engaged": true
-    },
-    {
-      "name": "Valley Van & Sport Utilities",
-      "engaged": true
-    },
-    {
-      "name": "Enterprise - Scott Depot, WV",
-      "engaged": true
-    },
-    {
-      "name": "Titan Truck Equipment",
-      "engaged": true
-    },
-    {
-      "name": "Nelson Truck Equipment Co Inc - Kent",
-      "engaged": true
-    },
-    {
-      "name": "Competition Specialties, Inc.",
-      "engaged": true
-    },
-    {
-      "name": "Enterprise - Dallas Truck Ctr",
-      "engaged": true
-    },
-    {
-      "name": "Gold Touch Dealer Solutions",
-      "engaged": true
-    },
-    {
-      "name": "Ideal Automotive & Truck Accessories",
-      "engaged": true
-    },
-    {
-      "name": "Tractor Supply",
-      "engaged": true
-    },
-    {
-      "name": "Nelson Truck",
-      "engaged": true
-    },
-    {
-      "name": "Enterprise - Sherwood",
-      "engaged": false
-    },
-    {
-      "name": "Enterprise - College Park",
-      "engaged": false
-    },
-    {
-      "name": "Uline",
-      "engaged": true
-    },
-    {
-      "name": "Veritiv - Wi",
-      "engaged": true
-    },
-    {
       "name": "Berlin Packaging",
-      "engaged": true
+      "engaged": true,
+      "last_activity": "2026-11-09"
     },
     {
-      "name": "Packaging Corp of America",
-      "engaged": true
-    },
-    {
-      "name": "Graham Packaging Co",
-      "engaged": true
-    },
-    {
-      "name": "Harley-Davidson Inc (VEN Z2961)",
-      "engaged": true
-    },
-    {
-      "name": "Honeywell",
-      "engaged": true
+      "name": "Crown Packaging",
+      "engaged": true,
+      "last_activity": "2026-11-12"
     },
     {
       "name": "General Dynamics Ordnance and Tactical Systems",
-      "engaged": true
+      "engaged": true,
+      "last_activity": "2024-03-06"
+    },
+    {
+      "name": "Graham Packaging Co",
+      "engaged": true,
+      "last_activity": "2026-11-19"
+    },
+    {
+      "name": "Harley-Davidson Inc (VEN Z2961)",
+      "engaged": true,
+      "last_activity": "2026-02-13"
+    },
+    {
+      "name": "Honeywell",
+      "engaged": true,
+      "last_activity": "2024-07-11"
     },
     {
       "name": "JLG",
-      "engaged": true
+      "engaged": true,
+      "last_activity": "2026-11-19"
+    },
+    {
+      "name": "Packaging Corp of America",
+      "engaged": true,
+      "last_activity": "2026-11-12"
+    },
+    {
+      "name": "Stephen Gould Corporation",
+      "engaged": true,
+      "last_activity": "2026-11-10"
+    },
+    {
+      "name": "Uline",
+      "engaged": true,
+      "last_activity": "2026-11-23"
+    },
+    {
+      "name": "Veritiv - Wi",
+      "engaged": true,
+      "last_activity": "2026-11-17"
+    },
+    {
+      "name": "Veritiv Operating Co. (Unisource)",
+      "engaged": true,
+      "last_activity": "2026-10-13"
     }
   ],
   "Mariano Lobos": [
     {
-      "name": "DeRemate.com de Mexico S. de R.L. de C.V.",
-      "engaged": true
-    },
-    {
-      "name": "GRUPO BIMBO",
-      "engaged": true
-    },
-    {
-      "name": "Heineken Mexico - Sub 31",
-      "engaged": true
-    },
-    {
       "name": "Ab Inbev Mexico",
-      "engaged": true
-    },
-    {
-      "name": "Gruma",
-      "engaged": true
-    },
-    {
-      "name": "FAURECIA SISTEMAS AUTOMOTRICES DE MEXICO",
-      "engaged": true
-    },
-    {
-      "name": "Danone",
-      "engaged": true
-    },
-    {
-      "name": "FORM",
-      "engaged": true
-    },
-    {
-      "name": "Hitachi Astemo Queretaro",
-      "engaged": true
-    },
-    {
-      "name": "Grupo Lala Mexico",
-      "engaged": true
+      "engaged": true,
+      "last_activity": "2026-10-19"
     },
     {
       "name": "Borg Warner",
-      "engaged": true
+      "engaged": true,
+      "last_activity": "2026-08-15"
     },
     {
-      "name": "Grupo Bocar",
-      "engaged": true
+      "name": "Danone",
+      "engaged": true,
+      "last_activity": "2026-10-22"
+    },
+    {
+      "name": "DeRemate.com de Mexico S. de R.L. de C.V.",
+      "engaged": true,
+      "last_activity": "2026-11-24"
     },
     {
       "name": "Diageo",
-      "engaged": true
-    },
-    {
-      "name": "Grupo Herdez",
-      "engaged": true
-    },
-    {
-      "name": "Grupo Lala",
-      "engaged": true
-    },
-    {
-      "name": "Thyssenkrupp Multi Tracks",
-      "engaged": true
-    },
-    {
-      "name": "Forvia Automotive Seating MX Trienda",
-      "engaged": true
-    },
-    {
-      "name": "Vitro Mexico",
-      "engaged": true
+      "engaged": true,
+      "last_activity": "2026-08-15"
     },
     {
       "name": "Envases Universales Mexico",
-      "engaged": true
+      "engaged": true,
+      "last_activity": "2024-08-01"
+    },
+    {
+      "name": "FAURECIA SISTEMAS AUTOMOTRICES DE MEXICO",
+      "engaged": true,
+      "last_activity": "2026-11-23"
+    },
+    {
+      "name": "FORM",
+      "engaged": true,
+      "last_activity": "2026-11-23"
+    },
+    {
+      "name": "Forvia Automotive Seating MX",
+      "engaged": true,
+      "last_activity": "2026-11-23"
+    },
+    {
+      "name": "Forvia Automotive Seating MX Trienda",
+      "engaged": true,
+      "last_activity": "2026-08-15"
+    },
+    {
+      "name": "Gruma",
+      "engaged": true,
+      "last_activity": "2026-10-23"
+    },
+    {
+      "name": "GRUPO BIMBO",
+      "engaged": true,
+      "last_activity": "2026-11-18"
+    },
+    {
+      "name": "Grupo Bocar",
+      "engaged": true,
+      "last_activity": "2026-08-15"
+    },
+    {
+      "name": "Grupo Herdez",
+      "engaged": true,
+      "last_activity": "2026-08-15"
+    },
+    {
+      "name": "Grupo Lala",
+      "engaged": true,
+      "last_activity": "2026-08-15"
+    },
+    {
+      "name": "Grupo Lala Mexico",
+      "engaged": true,
+      "last_activity": "2026-10-27"
+    },
+    {
+      "name": "Heineken Mexico - Sub 31",
+      "engaged": true,
+      "last_activity": "2026-10-23"
+    },
+    {
+      "name": "Hitachi Astemo Queretaro",
+      "engaged": true,
+      "last_activity": "2026-08-20"
+    },
+    {
+      "name": "Thyssenkrupp Multi Tracks",
+      "engaged": true,
+      "last_activity": "2026-08-15"
+    },
+    {
+      "name": "Vitro Mexico",
+      "engaged": true,
+      "last_activity": "2025-05-20"
     }
   ],
   "Matt Olsen": [
     {
-      "name": "Thyssenkrupp Mexico P3",
-      "engaged": true
-    },
-    {
-      "name": "TESLA",
-      "engaged": true
-    },
-    {
-      "name": "Lucid Motors - P3",
-      "engaged": true
-    },
-    {
-      "name": "Redwood Materials",
-      "engaged": true
-    },
-    {
-      "name": "RIVIAN P3",
-      "engaged": true
-    },
-    {
-      "name": "Motherson Puebla",
-      "engaged": true
-    },
-    {
-      "name": "Thyssenkrupp Mexico Sub 31",
-      "engaged": true
-    },
-    {
-      "name": "Rassini",
-      "engaged": true
-    },
-    {
-      "name": "ElringKlinger",
-      "engaged": true
-    },
-    {
-      "name": "Moment Energy",
-      "engaged": true
-    },
-    {
-      "name": "Robert Bosch Mexico Sistemas S.A. De C.V.",
-      "engaged": true
+      "name": "Adient",
+      "engaged": true,
+      "last_activity": "2026-11-04"
     },
     {
       "name": "Brose Quer\u00e9taro S.A. de C.V.",
-      "engaged": true
-    },
-    {
-      "name": "Elevated Materials Inc.",
-      "engaged": true
-    },
-    {
-      "name": "Mobis North America",
-      "engaged": true
-    },
-    {
-      "name": "Oshkosh Corporation",
-      "engaged": true
-    },
-    {
-      "name": "KIA Georgia, Inc.",
-      "engaged": true
-    },
-    {
-      "name": "Connor Metal Stamping de M\u00e9xico",
-      "engaged": true
-    },
-    {
-      "name": "Hyundai Motor North America",
-      "engaged": true
-    },
-    {
-      "name": "Volkswagen de M\u00e9xico, SA de CV",
-      "engaged": true
-    },
-    {
-      "name": "Prime Wheel 31",
-      "engaged": true
-    },
-    {
-      "name": "Hiho Wheel Mexico - SUB 31",
-      "engaged": true
-    },
-    {
-      "name": "Kyoho Toyotsu- Stampings",
-      "engaged": true
-    },
-    {
-      "name": "Panasonic Battery",
-      "engaged": true
-    },
-    {
-      "name": "Motherson",
-      "engaged": true
+      "engaged": true,
+      "last_activity": "2026-09-02"
     },
     {
       "name": "CIE Automotive",
-      "engaged": true
+      "engaged": true,
+      "last_activity": "2024-05-06"
     },
     {
-      "name": "TREMEC",
-      "engaged": false
+      "name": "Connor Metal Stamping de M\u00e9xico",
+      "engaged": false,
+      "last_activity": null
+    },
+    {
+      "name": "ElringKlinger",
+      "engaged": true,
+      "last_activity": "2026-08-29"
+    },
+    {
+      "name": "Hiho Wheel Mexico - SUB 31",
+      "engaged": true,
+      "last_activity": "2026-11-10"
+    },
+    {
+      "name": "Hyundai Motor North America",
+      "engaged": true,
+      "last_activity": "2026-10-27"
+    },
+    {
+      "name": "JATCO M\u00e9xico, SA de CV",
+      "engaged": true,
+      "last_activity": "2026-10-29"
+    },
+    {
+      "name": "KIA Georgia, Inc.",
+      "engaged": true,
+      "last_activity": "2026-10-05"
+    },
+    {
+      "name": "Kyoho Toyotsu- Stampings",
+      "engaged": true,
+      "last_activity": "2025-09-05"
+    },
+    {
+      "name": "LG Energy Solution",
+      "engaged": true,
+      "last_activity": "2025-03-06"
+    },
+    {
+      "name": "Lucid Motors - P3",
+      "engaged": true,
+      "last_activity": "2026-11-23"
+    },
+    {
+      "name": "Microvast Inc",
+      "engaged": true,
+      "last_activity": "2023-07-24"
+    },
+    {
+      "name": "Mobis North America",
+      "engaged": true,
+      "last_activity": "2026-09-29"
+    },
+    {
+      "name": "Moment Energy",
+      "engaged": true,
+      "last_activity": "2026-11-03"
+    },
+    {
+      "name": "Motherson",
+      "engaged": true,
+      "last_activity": "2025-01-23"
+    },
+    {
+      "name": "Motherson Puebla",
+      "engaged": true,
+      "last_activity": "2026-09-04"
+    },
+    {
+      "name": "Oshkosh Corporation",
+      "engaged": true,
+      "last_activity": "2026-10-21"
+    },
+    {
+      "name": "Panasonic Battery",
+      "engaged": true,
+      "last_activity": "2025-01-26"
+    },
+    {
+      "name": "Prime Wheel 31",
+      "engaged": true,
+      "last_activity": "2026-07-20"
+    },
+    {
+      "name": "Proterra",
+      "engaged": true,
+      "last_activity": "2024-08-07"
+    },
+    {
+      "name": "Rassini",
+      "engaged": true,
+      "last_activity": "2026-11-17"
+    },
+    {
+      "name": "Redwood Materials",
+      "engaged": true,
+      "last_activity": "2026-11-19"
+    },
+    {
+      "name": "RIVIAN P3",
+      "engaged": true,
+      "last_activity": "2026-11-24"
+    },
+    {
+      "name": "Robert Bosch Mexico Sistemas S.A. De C.V.",
+      "engaged": true,
+      "last_activity": "2026-10-13"
+    },
+    {
+      "name": "SK Battery America, Inc.",
+      "engaged": true,
+      "last_activity": "2026-11-11"
     },
     {
       "name": "Spiers New Technologies Inc",
-      "engaged": true
+      "engaged": true,
+      "last_activity": "2023-07-17"
     },
     {
-      "name": "Lear Corporation",
-      "engaged": true
+      "name": "TESLA",
+      "engaged": true,
+      "last_activity": "2026-11-24"
+    },
+    {
+      "name": "Thyssenkrupp Mexico P3",
+      "engaged": true,
+      "last_activity": "2026-11-19"
+    },
+    {
+      "name": "Thyssenkrupp Mexico Sub 31",
+      "engaged": true,
+      "last_activity": "2026-11-19"
+    },
+    {
+      "name": "TREMEC",
+      "engaged": true,
+      "last_activity": "2026-11-17"
+    },
+    {
+      "name": "Volkswagen de M\u00e9xico, SA de CV",
+      "engaged": true,
+      "last_activity": "2026-07-26"
     }
   ],
   "Rebecca Krueger": [
     {
-      "name": "Cummins Inc.",
-      "engaged": true
-    },
-    {
-      "name": "Meritor",
-      "engaged": true
-    },
-    {
-      "name": "Linamar",
-      "engaged": true
-    },
-    {
-      "name": "Fixx Energy, LLC (AESC)",
-      "engaged": true
-    },
-    {
-      "name": "Daimler Purchasing",
-      "engaged": true
-    },
-    {
-      "name": "Toyota Motor Manufacturing Kentucky",
-      "engaged": true
-    },
-    {
-      "name": "Scout Motors - P3",
-      "engaged": true
-    },
-    {
-      "name": "PackIQ - P3",
-      "engaged": true
-    },
-    {
-      "name": "Honda Development and Manufacturing of America, LLC",
-      "engaged": true
-    },
-    {
-      "name": "Magna Powertrain USA",
-      "engaged": true
-    },
-    {
-      "name": "Clarios, LLC",
-      "engaged": true
-    },
-    {
       "name": "Benteler - P3",
-      "engaged": true
-    },
-    {
-      "name": "Dana Inc.",
-      "engaged": true
-    },
-    {
-      "name": "Yanfeng International",
-      "engaged": true
-    },
-    {
-      "name": "Subaru Of Indiana Automotive",
-      "engaged": true
-    },
-    {
-      "name": "Volkswagen Group of America",
-      "engaged": true
-    },
-    {
-      "name": "Form Energy",
-      "engaged": true
+      "engaged": true,
+      "last_activity": "2026-10-05"
     },
     {
       "name": "Bmw Manufacturing, Llc",
-      "engaged": true
+      "engaged": true,
+      "last_activity": "2025-04-04"
     },
     {
-      "name": "Volvo Car USA",
-      "engaged": true
+      "name": "Clarios, LLC",
+      "engaged": true,
+      "last_activity": "2026-11-20"
+    },
+    {
+      "name": "Cummins Inc.",
+      "engaged": true,
+      "last_activity": "2026-11-18"
+    },
+    {
+      "name": "Daimler Purchasing",
+      "engaged": true,
+      "last_activity": "2026-11-23"
+    },
+    {
+      "name": "Dana Inc.",
+      "engaged": true,
+      "last_activity": "2026-09-25"
+    },
+    {
+      "name": "Fixx Energy, LLC (AESC)",
+      "engaged": true,
+      "last_activity": "2026-11-11"
     },
     {
       "name": "Flex-N-Gate",
-      "engaged": true
+      "engaged": true,
+      "last_activity": "2026-11-16"
     },
     {
-      "name": "HONDA CANADA",
-      "engaged": true
+      "name": "Form Energy",
+      "engaged": true,
+      "last_activity": "2026-09-25"
     },
     {
-      "name": "Mercedes-Benz USA",
-      "engaged": true
-    },
-    {
-      "name": "Takeda",
-      "engaged": true
-    },
-    {
-      "name": "Mazda North American Operations",
-      "engaged": true
-    },
-    {
-      "name": "Toyota Boshoku",
-      "engaged": true
+      "name": "Honda Development and Manufacturing of America, LLC",
+      "engaged": true,
+      "last_activity": "2026-11-23"
     },
     {
       "name": "Jtekt",
-      "engaged": true
+      "engaged": true,
+      "last_activity": "2025-01-06"
+    },
+    {
+      "name": "Lear Corporation",
+      "engaged": true,
+      "last_activity": "2026-11-23"
+    },
+    {
+      "name": "Linamar",
+      "engaged": true,
+      "last_activity": "2026-10-13"
+    },
+    {
+      "name": "Magna Powertrain USA",
+      "engaged": true,
+      "last_activity": "2026-10-15"
+    },
+    {
+      "name": "Mazda North American Operations",
+      "engaged": true,
+      "last_activity": "2026-02-13"
+    },
+    {
+      "name": "Mercedes-Benz USA",
+      "engaged": true,
+      "last_activity": "2025-03-03"
+    },
+    {
+      "name": "Meritor",
+      "engaged": true,
+      "last_activity": "2026-11-23"
+    },
+    {
+      "name": "PackIQ - P3",
+      "engaged": true,
+      "last_activity": "2026-11-16"
+    },
+    {
+      "name": "Scout Motors - P3",
+      "engaged": true,
+      "last_activity": "2026-10-21"
+    },
+    {
+      "name": "Subaru Of Indiana Automotive",
+      "engaged": true,
+      "last_activity": "2026-10-21"
+    },
+    {
+      "name": "Takeda",
+      "engaged": true,
+      "last_activity": "2026-06-03"
+    },
+    {
+      "name": "Toyota Boshoku",
+      "engaged": true,
+      "last_activity": "2026-02-06"
+    },
+    {
+      "name": "Toyota Motor Manufacturing Kentucky",
+      "engaged": true,
+      "last_activity": "2026-11-23"
+    },
+    {
+      "name": "Volkswagen Group of America",
+      "engaged": true,
+      "last_activity": "2026-10-12"
+    },
+    {
+      "name": "Volvo Car USA",
+      "engaged": true,
+      "last_activity": "2026-11-23"
     },
     {
       "name": "VOLVO TRUCK P3 A4",
-      "engaged": true
+      "engaged": true,
+      "last_activity": "2024-07-30"
     },
     {
-      "name": "JTEKT COLUMN SYSTEMS NA CORPORATION (FKA Douglas Autotech Corp)",
-      "engaged": true
+      "name": "Yanfeng International",
+      "engaged": true,
+      "last_activity": "2026-11-11"
     }
   ],
   "Vonn McQuiston": [
     {
-      "name": "Texas Disposal Systems",
-      "engaged": true
-    },
-    {
       "name": "Ace Hardware Corporation",
-      "engaged": true
-    },
-    {
-      "name": "United Rentals",
-      "engaged": true
-    },
-    {
-      "name": "Graham Packaging Co",
-      "engaged": true
+      "engaged": true,
+      "last_activity": "2026-11-09"
     },
     {
       "name": "CoreCivic",
-      "engaged": true
-    },
-    {
-      "name": "Mustang Extreme Environmental Services",
-      "engaged": true
-    },
-    {
-      "name": "Waste Connections",
-      "engaged": true
-    },
-    {
-      "name": "Crown Packaging",
-      "engaged": true
+      "engaged": true,
+      "last_activity": "2026-08-06"
     },
     {
       "name": "Fema Corporation",
-      "engaged": true
+      "engaged": true,
+      "last_activity": "2024-06-28"
     },
     {
-      "name": "FEMA",
-      "engaged": true
+      "name": "Mustang Extreme Environmental Services",
+      "engaged": false,
+      "last_activity": null
     },
     {
       "name": "Sanmina Corporation",
-      "engaged": true
+      "engaged": true,
+      "last_activity": "2026-11-03"
     },
     {
-      "name": "Innovex Inc.",
-      "engaged": true
+      "name": "Sunbelt Rentals - Chicago",
+      "engaged": true,
+      "last_activity": "2026-11-09"
     },
     {
-      "name": "Environmental Metal Works",
-      "engaged": true
+      "name": "Texas Disposal Systems",
+      "engaged": true,
+      "last_activity": "2026-11-09"
     },
     {
-      "name": "Rehrig Pacific Company",
-      "engaged": true
+      "name": "United Rentals",
+      "engaged": true,
+      "last_activity": "2026-11-03"
     },
     {
-      "name": "Rea Magnet Wire",
-      "engaged": true
+      "name": "Waste Connections",
+      "engaged": true,
+      "last_activity": "2024-11-19"
     },
     {
-      "name": "Westlake",
-      "engaged": true
+      "name": "Waste Connections-Iowa Park, TX",
+      "engaged": false,
+      "last_activity": null
     },
     {
-      "name": "Sunbelt Rentals",
-      "engaged": false
-    },
-    {
-      "name": "General Mills",
-      "engaged": true
-    },
-    {
-      "name": "American Woodmark Corp",
-      "engaged": false
-    },
-    {
-      "name": "Premier PV",
-      "engaged": false
+      "name": "Waste Connections-Pflugerville",
+      "engaged": true,
+      "last_activity": "2026-10-02"
     }
   ]
 };
