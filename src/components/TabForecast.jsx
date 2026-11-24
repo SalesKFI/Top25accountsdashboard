@@ -13,7 +13,7 @@ import {
 // Historical recurring revenue baseline ≈ $5M/month (estimated from KFI BI data).
 // Seasonal index applied based on typical manufacturing/CPG buy patterns.
 
-const TODAY = '2026-07-27'
+const TODAY = '2026-11-23'
 const TODAY_D = new Date(TODAY)
 
 // Stage-based credibility filter — only "credible" opps count toward Go Get
@@ -44,8 +44,8 @@ const SEASONAL = {
 }
 const RECURRING_BASE = 5000000  // $5M/month baseline
 
-const MONTHS_FWD = ['Jul','Aug','Sep','Oct','Nov','Dec']
-const MONTH_NUMS = {Jul:7,Aug:8,Sep:9,Oct:10,Nov:11,Dec:12}
+const MONTHS_FWD = ['Nov','Dec','Jan','Feb','Mar']
+const MONTH_NUMS = {Nov:11,Dec:12,Jan:1,Feb:2,Mar:3}
 
 function getMonthLabel(closeDate) {
   if (!closeDate) return null
@@ -53,9 +53,12 @@ function getMonthLabel(closeDate) {
   if (d < TODAY_D) return 'Past Due'
   const y = d.getFullYear()
   const m = d.getMonth() + 1
-  if (y > 2026) return '2027+'
   const names = ['','Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec']
-  return names[m] + ' 2026'
+  const label = names[m]
+  if (y === 2026 && m >= 11) return label + ' 2026'
+  if (y === 2027 && m <= 3) return label + ' 2027'
+  if (y > 2027 || (y === 2027 && m > 3)) return '2028+'
+  return 'Past Due'
 }
 
 export default function TabForecast() {
@@ -73,7 +76,7 @@ export default function TabForecast() {
   const JSONBIN_ENABLED = JSONBIN_BIN_ID !== '' && JSONBIN_API_KEY !== ''
   const JSONBIN_URL     = `https://api.jsonbin.io/v3/b/${JSONBIN_BIN_ID}`
 
-  const DEFAULT_RECURRING = {Jul:4500000,Aug:4200000,Sep:5000000,Oct:5200000,Nov:5000000,Dec:4000000}
+  const DEFAULT_RECURRING = {Nov:5000000,Dec:4000000,Jan:4800000,Feb:5100000,Mar:5500000}
 
   const [recurringEdits, setRecurringEditsState] = useState(() => {
     try {
@@ -144,8 +147,8 @@ export default function TabForecast() {
   const monthBuckets = useMemo(() => {
     const buckets = {
       'Past Due': {opps:[], raw:0, credible:0, conservative:0},
-      ...MONTHS_FWD.reduce((a,m)=>({...a,[m+' 2026']:{opps:[],raw:0,credible:0,conservative:0}}),{}),
-      '2027+': {opps:[], raw:0, credible:0, conservative:0},
+      ...MONTHS_FWD.reduce((a,m)=>({...a,[m+(['Jan','Feb','Mar'].includes(m)?' 2027':' 2026')]:{opps:[],raw:0,credible:0,conservative:0}}),{}),
+      '2028+': {opps:[], raw:0, credible:0, conservative:0},
     }
     filtered.forEach(o => {
       const label = getMonthLabel(o.close)
@@ -167,19 +170,19 @@ export default function TabForecast() {
     const pd = monthBuckets['Past Due']
     rows.push({month:'Past Due',label:'Past Due',raw:+(pd.raw/1e6).toFixed(2),goGet:+(pd.credible/1e6).toFixed(2),conservative:+(pd.conservative/1e6).toFixed(2),recurring:0,total:+(pd.conservative/1e6).toFixed(2),cnt:pd.opps.length,isPast:true})
     MONTHS_FWD.forEach(m => {
-      const key = m + ' 2026'
+      const key = m + (['Jan','Feb','Mar'].includes(m) ? ' 2027' : ' 2026')
       const b   = monthBuckets[key]
       const rec = showRecurring ? (recurringEdits[m] || 0) : 0
       const consVal = b.conservative
       rows.push({month:m,label:key,raw:+(b.raw/1e6).toFixed(2),goGet:+(b.credible/1e6).toFixed(2),conservative:+(consVal/1e6).toFixed(2),recurring:+(rec/1e6).toFixed(2),total:+((consVal+rec)/1e6).toFixed(2),cnt:b.opps.length,isPast:false})
     })
-    const later = monthBuckets['2027+']
-    rows.push({month:'2027+',label:'2027+',raw:+(later.raw/1e6).toFixed(2),goGet:+(later.credible/1e6).toFixed(2),conservative:+(later.conservative/1e6).toFixed(2),recurring:0,total:+(later.conservative/1e6).toFixed(2),cnt:later.opps.length,isPast:false})
+    const later = monthBuckets['2028+']
+    rows.push({month:'2028+',label:'2028+',raw:+(later.raw/1e6).toFixed(2),goGet:+(later.credible/1e6).toFixed(2),conservative:+(later.conservative/1e6).toFixed(2),recurring:0,total:+(later.conservative/1e6).toFixed(2),cnt:later.opps.length,isPast:false})
     return rows
   }, [monthBuckets, showRecurring, recurringEdits])
 
   // KPIs
-  const fwdMonths = chartData.filter(d=>!d.isPast && d.month !== '2027+')
+  const fwdMonths = chartData.filter(d=>!d.isPast && d.month !== '2028+')
   const totalGoGet     = fwdMonths.reduce((s,d)=>s+d.goGet,0)
   const totalConservative = fwdMonths.reduce((s,d)=>s+d.conservative,0)
   const totalRecurring = fwdMonths.reduce((s,d)=>s+d.recurring,0)
@@ -221,7 +224,7 @@ export default function TabForecast() {
           {label:'Conservative Go Get',     value:fmtM(totalConservative*1e6),  sub:'Go Get × 70%',             orange:true},
           {label:'Recurring Baseline',      value:fmtM(totalRecurring*1e6),     sub:'$5M/mo × seasonal (6mo)'},
           {label:'Total 6-Month Forecast',  value:fmtM(totalForecast*1e6),      sub:'Conservative + Recurring', accent:true},
-          {label:'Avg Monthly Forecast',    value:fmtM(avgMonthly*1e6),         sub:'Jul–Dec 2026 avg'},
+          {label:'Avg Monthly Forecast',    value:fmtM(avgMonthly*1e6),         sub:'Nov 2026–Mar 2027 avg'},
           {label:'Past Due Pipeline',       value:fmtM(pastDueVal),             sub:'Close date already passed', red:true},
         ].map((k,i)=>(
           <div key={i} className={`bg-white p-3 border-t-2 ${k.red?'border-red-500':k.accent?'border-kfi-orange':k.orange?'border-kfi-orange':'border-kfi-navy'}`}>
@@ -253,7 +256,7 @@ export default function TabForecast() {
 
       {/* Main forecast bar chart */}
       <div className="bg-white p-5 border-t-[3px] border-kfi-orange mb-5">
-        <h3 className="font-headline text-sm text-kfi-navy font-medium mb-1">Monthly Revenue Forecast — Jul–Dec 2026</h3>
+        <h3 className="font-headline text-sm text-kfi-navy font-medium mb-1">Monthly Revenue Forecast — Nov 2026–Mar 2027</h3>
         <p className="font-label text-[9px] text-kfi-mgray mb-1">Click any bar to see the underlying deals. Past Due = close date already passed in SF.</p>
         <p className="font-label text-[9px] text-kfi-mgray mb-4">
           Conservative Go Get = SF opps × stage credibility × 70%.

@@ -117,6 +117,32 @@ const LOST_2026 = [
   {month:'Jul',rep:'Other',         account:'Fytertech',                name:'Fytertech Non-Wovens DePere WI',             amount:1100000, lr:'Customer Non-Responsive',       fb:null},
   {month:'Jul',rep:'Other',         account:'Menzner Lumber',           name:'Menzner Lumber Marathon City WI',            amount:1809887, lr:'Customer Non-Responsive',       fb:'Ghosted after tour and pricing proposal. Likely to return in 6-12 months.'},
   {month:'Jul',rep:'Other',         account:'General Motors',           name:'T1XX FENDER REBUY',                          amount:16000,   lr:'No Customer Budget',            fb:null},
+  // Aug
+  {month:'Aug',rep:'Jake Heinecke', account:'TJX Companies',          name:'DC4 42x48 Harris Teeter',                    amount:301464,  lr:'Price',                         fb:'Customer went with lower-cost alternative.'},
+  {month:'Aug',rep:'Matt Olsen',    account:'RIVIAN P3',               name:'R2 2nd Shift Racks',                         amount:1250000, lr:'Customer Delayed',              fb:'Project paused pending R2 volume confirmation.'},
+  {month:'Aug',rep:'Matt Olsen',    account:'RIVIAN P3',               name:'R2 Lockdown Racks',                          amount:875000,  lr:'Customer Delayed',              fb:'Timeline pushed indefinitely.'},
+  {month:'Aug',rep:'Matt Olsen',    account:'RIVIAN P3',               name:'R2 Steel Bin Racks',                         amount:620000,  lr:'Price',                         fb:'Cost target not achievable with KFI tooling.'},
+  {month:'Aug',rep:'Rebecca Krueger',account:'Clarios LLC',            name:'JCI Twin Battery Pallet',                    amount:139800,  lr:'Customer Non-Responsive',       fb:'No response after multiple follow-ups.'},
+  {month:'Aug',rep:'Eric Cin',      account:'Ford FCSD',               name:'Ford P758 Maverick Standard Option',         amount:7200000, lr:'No KFI Activity',               fb:'Ford directed quote to incumbent supplier.'},
+  // Sep
+  {month:'Sep',rep:'Jack Subel',    account:'Cameron SLB Group',       name:'SLB IAD669 E-House Package',                 amount:72000000,lr:'No KFI Activity',               fb:'SLB moved project to internal team.'},
+  {month:'Sep',rep:'Jack Subel',    account:'Satellite Industries',     name:'Satellite Panel Suite (7 opps)',             amount:14200000,lr:'Customer Delayed',              fb:'Panel program paused — budget under review for FY27.'},
+  {month:'Sep',rep:'Matt Olsen',    account:'TESLA',                   name:'Tesla AMR Top Hatting Rebuy',                amount:28093,   lr:'Price',                         fb:'Tesla awarded to lower-cost domestic supplier.'},
+  {month:'Sep',rep:'Mariano Lobos', account:'DeRemate Mexico',         name:'BP 4048 Orange Stripe 2nd Line',             amount:1419600, lr:'Price',                         fb:'Customer consolidated to single supplier at lower rate.'},
+  {month:'Sep',rep:'Mariano Lobos', account:'Mercado Libre Argentina', name:'BIG PACKS 4048 Argentina',                   amount:1077440, lr:'Price',                         fb:'Local Argentine supplier won on landed cost.'},
+  {month:'Sep',rep:'Kent Buckingham',account:'PackIQ - P3',            name:'SR200328 Front Fascia MSP Mold WIP',         amount:300000,  lr:'Design Change',                 fb:'Customer redesigned part.'},
+  // Oct
+  {month:'Oct',rep:'Eric Cin',      account:'FCA USA',                 name:'RT Stellantis R4P Rampage Bed Protection',   amount:10000000,lr:'Customer Delayed',              fb:'Stellantis paused all accessory programs for Q4 budget review.'},
+  {month:'Oct',rep:'Matt Olsen',    account:'RIVIAN P3',               name:'Rivian 2nd Shift Racks (remaining)',         amount:800000,  lr:'Customer Delayed',              fb:'R2 volume ramp delayed to Q2 2027.'},
+  {month:'Oct',rep:'Kent Buckingham',account:'PackIQ - P3',            name:'AG Facebar C256667A-01',                     amount:100000,  lr:'Design Change',                 fb:'Customer eliminated this part from new model.'},
+  {month:'Oct',rep:'Mariano Lobos', account:'Marelli Mexico',          name:'rfq 25575 P33C Steel Racks partial',         amount:2122410, lr:'Price',                         fb:'Customer awarded partial — reduced scope to $1.04M.'},
+  // Nov
+  {month:'Nov',rep:'Mariano Lobos', account:'FORM',                    name:'CBB RACKS',                                  amount:2860624, lr:'No KFI Activity',               fb:'Removed from pipeline Nov 23 — confirm closed won or lost.'},
+  {month:'Nov',rep:'Matt Olsen',    account:'RIVIAN P3',               name:'Rivian R2 Brake Caliper Tray Redesign',      amount:47974,   lr:'Customer Non-Responsive',       fb:'No follow-up activity — customer moved to alternate supplier.'},
+  {month:'Nov',rep:'Vonn McQuiston',account:'American Woodmark',       name:'Opti-Pack BP4848W SP4 WHITE-NDH',            amount:50000,   lr:'Price',                         fb:'Customer chose lower-cost corrugated option.'},
+  {month:'Nov',rep:'Vonn McQuiston',account:'American Woodmark',       name:'BP 48x96',                                   amount:64050,   lr:'Customer Non-Responsive',       fb:'No response after follow-up.'},
+  {month:'Nov',rep:'Vonn McQuiston',account:'Texas Disposal Systems',  name:'Steel Replacement Bottoms',                  amount:20000,   lr:'Price',                         fb:'Customer went with lower-cost local fabricator.'},
+
 ]
 
 const EIGHT_REPS = ["Rebecca Krueger","Matt Olsen","Geoff Petrangelo","Kent Buckingham","Vonn McQuiston","Mariano Lobos","Jake Heinecke","Jack Subel"]
